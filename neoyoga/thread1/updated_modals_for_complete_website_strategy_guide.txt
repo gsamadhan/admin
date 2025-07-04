@@ -1,0 +1,401 @@
+### **Professional Mindfulness Modal:**
+```html
+<h2>Professional Mindfulness Programs</h2>
+<h3>Evidence-Based Stress Transformation</h3>
+
+<p><strong>Validation:</strong> Professionally validated through current work with NYC Department of Health healthcare professionals (quarterly cycles of 25 participants). Enhanced by multi-year teaching experience across professional and traditional settings, including faculty-level instruction at Ananda Ashrama.</p>
+
+<h4>Common Problems Professional Practitioners Face:</h4>
+<ul>
+    <li><strong>Time Constraints:</strong> Cannot find time for traditional meditation practices</li>
+    <li><strong>High-Pressure Environment:</strong> Workplace stress overwhelms mindfulness attempts</li>
+    <li><strong>Accumulated Tension:</strong> Years of professional stress create physical and emotional blocks</li>
+    <li><strong>Burnout Symptoms:</strong> Emotional exhaustion and cynicism despite mindfulness training</li>
+    <li><strong>Implementation Gap:</strong> Workplace mindfulness feels artificial or ineffective</li>
+    <li><strong>Emotional Regulation:</strong> Difficulty processing intense emotions in professional settings</li>
+    <li><strong>Sustainable Practice:</strong> Cannot maintain consistency with traditional approaches</li>
+</ul>
+
+<h4>How Our Preparation Methods Solve Professional Challenges:</h4>
+<ul>
+    <li><strong>Rapid Stress Discharge:</strong> Professional-appropriate techniques developed through years of teaching experience</li>
+    <li><strong>Emotional Regulation Mastery:</strong> Tools for processing difficult emotions through clearing</li>
+    <li><strong>Workplace Integration:</strong> Discrete methods adapted from preparation principles</li>
+    <li><strong>Burnout Prevention:</strong> Root-cause approaches using clearing to address systemic stress</li>
+    <li><strong>Enhanced Decision-Making:</strong> Clarity practices through preparation and clearing</li>
+    <li><strong>Sustainable Systems:</strong> Short, effective practices that fit professional schedules</li>
+    <li><strong>Evidence-Based Results:</strong> Measurable outcomes through preparation-enhanced mindfulness</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Healthcare Professional Wellness:</strong> Specialized clearing methods for medical workers</li>
+    <li><strong>Corporate Executive Stress Mastery:</strong> High-level transformation using professional-appropriate techniques</li>
+    <li><strong>Mindfulness Teacher Development:</strong> Professional skill enhancement with preparation methodology</li>
+    <li><strong>Evidence-Based Training:</strong> Scientifically-validated approaches enhanced with clearing</li>
+    <li><strong>Workplace Integration Consulting:</strong> Custom organizational programs with practical implementation</li>
+</ul>
+
+<h4>Teaching Experience & Credibility:</h4>
+<p><strong>Multi-Year Teaching Background:</strong> Extensive experience includes faculty-level instruction, cross-cultural retreat coordination, and integration teaching combining Eastern wisdom (including Thich Nhat Hanh's mindfulness approach) with preparation methods for contemporary accessibility.</p>
+
+<h4>Recommended Reading:</h4>
+<ul>
+    <li><em>"Full Catastrophe Living"</em> - Jon Kabat-Zinn</li>
+    <li><em>"The Mindful Nurse"</em> - Carmel Sheridan</li>
+    <li><em>"Search Inside Yourself"</em> - Chade-Meng Tan</li>
+    <li><em>"Stress Without Distress"</em> - Hans Selye</li>
+    <li><em>"The Workplace Revolution"</em> - Transforming work through awareness</li>
+    <li><em>"From Medication to Meditation"</em> - Alternative approaches to professional stress</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+<p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+<p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+<p><strong>Corporate Programs:</strong> Custom scheduling and location</p>
+<p><strong>Investment:</strong> TBD</p>
+```
+
+### **Self-Inquiry Modal:**
+```html
+<h2>Enhanced Self-Inquiry Programs</h2>
+<h3>Preparation for Direct Self-Recognition</h3>
+
+<p><strong>Background:</strong> Over 2 years intensive self-inquiry practice at Ramana Ashrama Queens (3 days per week), plus direct experience at Ramana Maharshi's ashram in India. Training in consciousness investigation and the direct path of "Who am I?" inquiry.</p>
+
+<h4>Common Problems Self-Inquiry Practitioners Face:</h4>
+<ul>
+    <li><strong>Mental Conceptualization:</strong> Inquiry becomes intellectual rather than direct investigation</li>
+    <li><strong>Ego Seeking:</strong> "Who" that seeks enlightenment becomes strengthened rather than dissolved</li>
+    <li><strong>Emotional Conditioning:</strong> Identity patterns and emotional reactions block clear seeing</li>
+    <li><strong>Effort in Non-Effort:</strong> Trying to investigate creates more seeking rather than recognition</li>
+    <li><strong>Spiritual Bypassing:</strong> Using inquiry to avoid dealing with psychological material</li>
+    <li><strong>Integration Challenges:</strong> Glimpses of recognition don't translate to daily life</li>
+    <li><strong>Teacher Dependency:</strong> Relying on external confirmation rather than direct knowing</li>
+</ul>
+
+<h4>How Our Preparation Methods Support Self-Inquiry:</h4>
+<ul>
+    <li><strong>Conditioning Release Preparation:</strong> Cathartic techniques that clear mental agitation before investigation</li>
+    <li><strong>Identity Pattern Dissolution:</strong> Clearing techniques that release conditioning blocking recognition</li>
+    <li><strong>Emotional Processing Support:</strong> Safe methods for handling psychological material that arises</li>
+    <li><strong>Non-Conceptual Recognition:</strong> Direct pointing supported by clearing that bypasses mental seeking</li>
+    <li><strong>Integration Support:</strong> Practical guidance for living from recognized awareness</li>
+    <li><strong>Beyond Technique Recognition:</strong> Understanding how clearing reveals what you are beyond all methods</li>
+    <li><strong>Natural Inquiry:</strong> Investigation that arises spontaneously after preparation</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Self-Inquiry Fundamentals:</strong> "Who am I?" investigation with clearing preparation</li>
+    <li><strong>Consciousness Exploration:</strong> Direct recognition practice with supportive clearing techniques</li>
+    <li><strong>Conditioning Release Workshop:</strong> Clearing methods supporting self-investigation</li>
+    <li><strong>Integration Circles:</strong> Group inquiry and sharing with clearing support</li>
+    <li><strong>Advanced Recognition Retreats:</strong> Intensive consciousness work with clearing enhancement</li>
+</ul>
+
+<h4>Recommended Reading:</h4>
+<ul>
+    <li><em>"I Am That"</em> - Nisargadatta Maharaj</li>
+    <li><em>"Be As You Are"</em> - Ramana Maharshi (David Godman editor)</li>
+    <li><em>"The Direct Path"</em> - Greg Goode</li>
+    <li><em>"Who Am I?"</em> - The original Ramana Maharshi inquiry</li>
+    <li><em>"The Ultimate Mystery"</em> - Direct pointing to consciousness</li>
+    <li><em>"The Book of Nothing"</em> - Understanding the void and recognition</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+<p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+<p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+<p><strong>Investment:</strong> TBD</p>
+```
+
+### **Stress Transformation Modal:**
+```html
+<h2>Stress Transformation Programs</h2>
+<h3>Beyond Management to Complete Liberation</h3>
+
+<p><strong>Approach:</strong> Move beyond stress management to complete transformation using powerful cathartic and clearing techniques that address the root causes of modern conditioning.</p>
+
+<h4>Common Problems Stress Management Approaches Face:</h4>
+<ul>
+    <li><strong>Symptom-Only Focus:</strong> Traditional methods manage symptoms without addressing root causes</li>
+    <li><strong>Accumulated Tension:</strong> Years of suppressed stress create physical and emotional blocks</li>
+    <li><strong>Medication Dependency:</strong> Reliance on pharmaceuticals without addressing underlying patterns</li>
+    <li><strong>Temporary Relief:</strong> Stress returns quickly after relaxation techniques</li>
+    <li><strong>Emotional Suppression:</strong> Stress management often involves pushing down rather than processing</li>
+    <li><strong>Modern Conditioning:</strong> Contemporary lifestyle creates stress faster than traditional methods can address</li>
+    <li><strong>Integration Challenges:</strong> Cannot maintain stress-free states in demanding environments</li>
+</ul>
+
+<h4>How Our Methods Transform Stress at the Root:</h4>
+<ul>
+    <li><strong>Cathartic Stress Discharge:</strong> Powerful movement and breathing techniques that release accumulated tension</li>
+    <li><strong>Emotional Liberation Methods:</strong> Safe expression of suppressed emotions through cathartic techniques</li>
+    <li><strong>Energy Transformation Training:</strong> Convert stress energy into vitality through clearing methods</li>
+    <li><strong>Root Cause Resolution:</strong> Address conditioning patterns creating stress through preparation techniques</li>
+    <li><strong>Natural Peace Recognition:</strong> Discover the stillness that emerges after cathartic release</li>
+    <li><strong>Lifestyle Integration:</strong> Practical methods for maintaining transformation in daily life</li>
+    <li><strong>Prevention Systems:</strong> Regular clearing that prevents stress accumulation</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Cathartic Meditation Intensive:</strong> Complete stress-release methodology using multiple techniques</li>
+    <li><strong>Emotional Freedom Workshop:</strong> Clear suppressed emotions through cathartic methods</li>
+    <li><strong>Energy Transformation Training:</strong> Convert stress into vitality through clearing techniques</li>
+    <li><strong>Workplace Stress Mastery:</strong> Professional-level transformation using workplace-appropriate methods</li>
+    <li><strong>Monthly Stress Release Gatherings:</strong> Community support and ongoing practice</li>
+</ul>
+
+<h4>Recommended Reading:</h4>
+<ul>
+    <li><em>"When the Body Says No"</em> - Gabor Maté</li>
+    <li><em>"The Body Keeps the Score"</em> - Bessel van der Kolk</li>
+    <li><em>"Waking the Tiger"</em> - Peter Levine</li>
+    <li><em>"Meditation: The First and Last Freedom"</em> - Guide to cathartic meditation</li>
+    <li><em>"From Unconsciousness to Consciousness"</em> - Understanding stress transformation</li>
+    <li><em>"The Revolution from Within"</em> - Internal transformation approaches</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-### **Zen Integration Modal:**
+```html
+<h2>Zen Integration & Sitting Practice</h2>
+<h3>Embody Your Sitting Through Active Preparation</h3>
+
+<p><strong>Background:</strong> 10 months intensive training at Hwagesa Korean Zen Monastery including over 1,200 hours formal sitting meditation, traditional monastery discipline, and direct experience of Zen's "no-method" approach.</p>
+
+<h4>How We Enhance Your Zen Practice:</h4>
+<p>Many Zen practitioners struggle with restlessness, physical discomfort, and mental agitation during sitting practice. Traditional Zen can be frustrating for modern minds conditioned by constant activity. We solve this by providing active preparation methods that discharge physical and mental tension before sitting, making authentic Zen practice accessible:</p>
+
+<ul>
+    <li><strong>Active Preparation for Stillness:</strong> Movement and breathing techniques that prepare body and mind for sitting</li>
+    <li><strong>Embodied Awareness Training:</strong> Integration of Zen mindfulness with daily activities</li>
+    <li><strong>Emotional Clearing for Clarity:</strong> Active methods that dissolve emotional blocks to natural awareness</li>
+    <li><strong>Korean Monastery Discipline:</strong> Authentic traditional structure adapted for contemporary life</li>
+    <li><strong>No-Method Approach:</strong> Direct pointing to natural awareness without forcing techniques</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Enhanced Sitting Practice:</strong> Traditional Zen with active preparation methods</li>
+    <li><strong>Moving Zen Workshop:</strong> Awareness in daily activity and work practice</li>
+    <li><strong>Korean Monastery Methods:</strong> Authentic traditional training with modern accessibility</li>
+    <li><strong>Work Practice Integration:</strong> Meditation in professional and daily life</li>
+    <li><strong>Silent Sitting Intensives:</strong> Deep practice with supportive preparation</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+<p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+<p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+<p><strong>Investment:</strong> $20 drop-in, $120 monthly, $180 intensive</p>
+```
+
+### **Vipassana Enhancement Modal:**
+```html
+<h2>Vipassana Enhancement & Witnessing</h2>
+<h3>Enhance Your Witnessing Through Emotional Liberation</h3>
+
+<p><strong>Approach:</strong> Traditional Vipassana witnessing awareness enhanced with preparatory practices that clear emotional and energetic obstacles to natural mindfulness.</p>
+
+<h4>How We Solve Vipassana Practice Challenges:</h4>
+<p>Many Vipassana practitioners struggle with suppressed emotions, physical tension, and mental resistance that interfere with clear witnessing. Traditional methods can become effortful and create spiritual bypassing. We solve this by first clearing emotional blocks through active techniques, then establishing stable witnessing awareness:</p>
+
+<ul>
+    <li><strong>Emotional Liberation Preparation:</strong> Active methods that clear suppressed emotions blocking natural awareness</li>
+    <li><strong>Somatic Awareness Integration:</strong> Body-based mindfulness that includes rather than bypasses physical experience</li>
+    <li><strong>Enhanced Witnessing Training:</strong> Effortless awareness practices that don't create mental strain</li>
+    <li><strong>Daily Life Mindfulness:</strong> Continuous awareness practice integrated with modern living</li>
+    <li><strong>Retreat Preparation Support:</strong> Methods that prepare for intensive silent practice</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Enhanced Vipassana Training:</strong> Traditional awareness with active clearing preparation</li>
+    <li><strong>Emotional Liberation Intensive:</strong> Clear obstacles to natural witnessing</li>
+    <li><strong>Body Awareness Integration:</strong> Somatic mindfulness enhancement methods</li>
+    <li><strong>Daily Life Mindfulness:</strong> Continuous awareness practice training</li>
+    <li><strong>Retreat Preparation Workshops:</strong> Ready for intensive silent retreats</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+<p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+<p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+<p><strong>Investment:</strong> $22 drop-in, $140 monthly, $200 intensive</p>
+```
+
+### **Self-Inquiry Modal:**
+```html
+<h2>Enhanced Self-Inquiry Programs</h2>
+<h3>Preparation for Direct Self-Recognition</h3>
+
+<p><strong>Background:</strong> Over 2 years intensive self-inquiry practice at Ramana Ashrama Queens (3 days per week), plus direct experience at Ramana Maharshi's ashram in India. Training in consciousness investigation and the direct path of "Who am I?" inquiry.</p>
+
+<h4>How Preparation Techniques Support Self-Inquiry:</h4>
+<p>Traditional self-inquiry can become mental and conceptual for many practitioners, creating subtle ego-seeking rather than genuine recognition. We solve this by using cathartic and clearing techniques that dissolve the emotional and mental conditioning that obscures natural awareness, making direct recognition more accessible:</p>
+
+<ul>
+    <li><strong>Conditioning Release Preparation:</strong> Cathartic techniques that clear mental agitation before investigation</li>
+    <li><strong>Non-Conceptual Recognition:</strong> Direct pointing supported by clearing that bypasses mental seeking</li>
+    <li><strong>Identity Pattern Dissolution:</strong> Clearing techniques that release conditioning blocking natural awareness</li>
+    <li><strong>Integration Support:</strong> Practical guidance for living from recognized awareness</li>
+    <li><strong>Beyond Technique Recognition:</strong> Understanding how clearing reveals what you are beyond all methods</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Self-Inquiry Fundamentals:</strong> "Who am I?" investigation with clearing preparation</li>
+    <li><strong>Consciousness Exploration:</strong> Direct recognition practice with supportive clearing techniques</li>
+    <li><strong>Conditioning Release Workshop:</strong> Clearing methods supporting self-investigation</li>
+    <li><strong>Integration Circles:</strong> Group inquiry and sharing with clearing support</li>
+    <li><strong>Advanced Recognition Retreats:</strong> Intensive consciousness work with clearing enhancement</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+<p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+<p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+<p><strong>Investment:</strong> TBD</p>
+```
+
+### **Stress Transformation Modal:**
+```html
+<h2>Stress Transformation Through Active Meditation</h2>
+<h3>Beyond Management to Complete Liberation</h3>
+
+<p><strong>Approach:</strong> Move beyond stress management to complete transformation using powerful active meditation techniques that address the root causes of modern conditioning. Active release followed by deep stillness and integration.</p>
+
+<h4>How Active Meditation Transforms Stress at the Root:</h4>
+<p>Traditional stress management only addresses symptoms, while conventional meditation can be difficult for highly stressed individuals. We solve this through active meditation techniques that first discharge accumulated stress and suppressed emotions, then establish natural peace and clarity:</p>
+
+<ul>
+    <li><strong>Active Stress Discharge:</strong> Powerful movement and breathing techniques that release years of accumulated tension</li>
+    <li><strong>Emotional Liberation Methods:</strong> Safe expression of suppressed emotions through active meditation</li>
+    <li><strong>Energy Transformation Training:</strong> Convert stress energy into vitality through active techniques</li>
+    <li><strong>Root Cause Resolution:</strong> Address conditioning patterns creating stress through active meditation</li>
+    <li><strong>Natural Peace Recognition:</strong> Discover the stillness that emerges after active release</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Active Meditation Intensive:</strong> Complete stress-release methodology using multiple active techniques</li>
+    <li><strong>Emotional Freedom Workshop:</strong> Clear suppressed emotions through active meditation methods</li>
+    <li><strong>Energy Transformation Training:</strong> Convert stress into vitality through active meditation</li>
+    <li><strong>Workplace Stress Mastery:</strong> Professional-level transformation using workplace-appropriate active techniques</li>
+    <li><strong>Monthly Active Meditation Gatherings:</strong> Community support and ongoing practice</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+<p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+<p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+<p><strong>Investment:</strong> TBD</p>
+```
+
+### **Bhakti & Celebration Modal:**
+```html
+<h2>Bhakti & Celebration Through Active Meditation</h2>
+<h3>Open Your Heart Through Sacred Sound & Joyful Active Meditation</h3>
+
+<p><strong>Approach:</strong> Heart-centered practice integrating kirtan, celebration, and devotional awareness through active meditation techniques. Drawing from ancient traditions of meditation as joy and sacred community as spiritual practice.</p>
+
+<h4>How Active Meditation Transforms Heart Practice:</h4>
+<p>Many spiritual practitioners struggle with overly serious, effortful approaches that create tension rather than openness. We solve this by introducing celebration-based active meditation techniques that naturally open the heart and create joyful awareness:</p>
+
+<ul>
+    <li><strong>Sacred Sound Liberation:</strong> Active expression techniques that release emotional suppression through sound</li>
+    <li><strong>Community Heart Opening:</strong> Group active meditation practices that dissolve isolation and create authentic connection</li>
+    <li><strong>Celebration as Active Meditation:</strong> Joy-based awareness practices that transform spiritual "work" into natural expression</li>
+    <li><strong>Active Preparation for Devotion:</strong> Movement and sound active meditation methods that prepare the heart for deeper opening</li>
+    <li><strong>Kirtan as Active Meditation:</strong> Sacred sound as dynamic meditation practice leading to natural stillness</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Monthly Kirtan & Active Meditation:</strong> First Friday evenings with sacred sound and community active practices</li>
+    <li><strong>Heart Opening Intensives:</strong> Active meditation celebration methods combined with traditional devotional practice</li>
+    <li><strong>Celebration Active Meditation:</strong> Community gatherings honoring seasonal cycles through joyful active awareness</li>
+    <li><strong>Sacred Sound & Silence Retreats:</strong> Full-day intensives balancing active expression and stillness</li>
+    <li><strong>Community Potluck Celebrations:</strong> Monthly gatherings with active meditation and shared nourishment</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+<p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+<p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+<p><strong>Kirtan Evenings:</strong> First Friday 7:00-9:00 PM</p>
+<p><strong>Investment:</strong> TBD</p>
+```:</h4>
+<p>Traditional stress management only addresses symptoms, while conventional meditation can be difficult for highly stressed individuals. We solve this through active meditation methods that first discharge accumulated stress and suppressed emotions, then establish natural peace and clarity:</p>
+
+<ul>
+    <li><strong>Active Stress Discharge:</strong> Powerful movement and breathing techniques that release years of accumulated tension</li>
+    <li><strong>Emotional Liberation Methods:</strong> Safe expression of suppressed emotions that create chronic stress</li>
+    <li><strong>Energy Transformation Training:</strong> Convert stress energy into vitality and creative expression</li>
+    <li><strong>Root Cause Resolution:</strong> Address conditioning patterns that create stress rather than managing symptoms</li>
+    <li><strong>Natural Peace Recognition:</strong> Discover the stillness and clarity that emerge after active release</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Active Meditation Intensive:</strong> Complete stress-release methodology with multiple techniques</li>
+    <li><strong>Emotional Freedom Workshop:</strong> Clear suppressed emotions and conditioning patterns</li>
+    <li><strong>Energy Transformation Training:</strong> Convert stress into vitality and creative force</li>
+    <li><strong>Workplace Stress Mastery:</strong> Professional-level transformation for high-pressure environments</li>
+    <li><strong>Monthly Stress Release Gatherings:</strong> Community support and ongoing practice</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+<p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+<p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+<p><strong>Investment:</strong> $25 drop-in, $160 monthly, $220 intensive</p>
+```### **Classical Yoga Modal:**
+```html
+<h2>Classical Yoga Enhancement Through Active Meditation</h2>
+<h3>How Active Meditation Supports Your Seven Limbs Practice</h3>
+
+<p><strong>Background:</strong> Drawing from 8 years intensive training at Ananda Ashrama (2 years full-time classical study) including daily practice with enlightened teacher Shiva Rudra Balayogi and renowned Ayurvedic master Vasant Lad. We use active meditation techniques to prepare and support practitioners in the seven limbs beyond asanas.</p>
+
+<h4>How Active Meditation Enhances Each Limb:</h4>
+<p>Classical yoga practitioners often struggle with the psychological and emotional blocks that prevent authentic practice of the ethical and meditative limbs. We solve this through active meditation techniques that clear these obstacles, making traditional practice more accessible and effective:</p>
+
+<ul>
+    <li><strong>Yamas & Niyamas Support:</strong> Active techniques that release the conditioning patterns that block authentic ethical living</li>
+    <li><strong>Pranayama Preparation:</strong> Movement and expression methods that prepare the nervous system for advanced breathing practices</li>
+    <li><strong>Pratyahara Enhancement:</strong> Active release that makes sensory withdrawal natural rather than forced</li>
+    <li><strong>Dharana Support:</strong> Clearing mental agitation through movement so concentration becomes effortless</li>
+    <li><strong>Dhyana Preparation:</strong> Active methods that dissolve the psychological barriers to natural meditation</li>
+    <li><strong>Samadhi Gateway:</strong> Understanding how active release leads to spontaneous absorption states</li>
+</ul>
+
+<h4>Programs Offered:</h4>
+<ul>
+    <li><strong>Active Meditation for Pranayama:</strong> Preparation techniques that make breathing practices more effective</li>
+    <li><strong>Seven Limbs Support Intensive:</strong> How active meditation enhances traditional practice</li>
+    <li><strong>Ethical Living Through Active Release:</strong> Clearing conditioning that blocks authentic yamas/niyamas</li>
+    <li><strong>Meditation Preparation Workshop:</strong> Active techniques that prepare for silent sitting</li>
+    <li><strong>Classical Integration Intensives:</strong> Combining active meditation with traditional framework</li>
+</ul>
+
+<h4>Schedule & Investment:</h4>
+<p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+<p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+<p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+<p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+<p><strong>Investment:</strong> TBD</p>
+```
