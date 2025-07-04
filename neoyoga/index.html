@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osho Neo Yoga Meditation Center | Where Classical Wisdom Meets Modern Transformation</title>
+    <meta name="description" content="Professional meditation and preparation techniques integrating time-tested methods from multiple traditions. Serving 7 meditation communities in Farmingdale, NY with authentic depth and contemporary accessibility.">
+    <meta name="keywords" content="meditation center Farmingdale NY, classical yoga Nassau County, zen meditation Long Island, mindfulness professionals, preparation techniques, cathartic meditation, spiritual community">
+    
+    <!-- Website Implementation Notes: 
+         Complete 7-community strategic framework with problem-solution positioning.
+         Client: Experienced meditation teacher with decades of residential training.
+         Approach: Preparation techniques + traditional practices (cathartic → stillness → traditional).
+         See complete_website_strategy_guide.md for full implementation details.
+    -->
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Navigation */
+        nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4a5568;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-item {
+            position: relative;
+        }
+        
+        .nav-link {
+            text-decoration: none;
+            color: #4a5568;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: #667eea;
+        }
+        
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            min-width: 320px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            z-index: 1001;
+        }
+        
+        .nav-item:hover .dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .dropdown a {
+            display: block;
+            padding: 12px 20px;
+            text-decoration: none;
+            color: #4a5568;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background-color 0.3s ease;
+        }
+        
+        .dropdown a:hover {
+            background-color: #f8f9fa;
+            color: #667eea;
+        }
+        
+        .dropdown a:last-child {
+            border-bottom: none;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 150px 0 100px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 300;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero .subtitle {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+        
+        .hero .description {
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.9;
+        }
+        
+        /* Credentials Section */
+        .credentials {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 3rem 0;
+            backdrop-filter: blur(10px);
+        }
+        
+        .credentials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .credential-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .credential-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .credential-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        /* Community Grid */
+        .communities {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .communities h2 {
+            text-align: center;
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .community-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        
+        .community-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+        
+        .community-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+        
+        .community-card h3 {
+            color: #333;
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .community-tagline {
+            color: #667eea;
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+        
+        .community-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        /* Page Content Styles */
+        .page-content {
+            background: white;
+            margin-top: 80px;
+            min-height: calc(100vh - 80px);
+            padding: 3rem 0;
+        }
+        
+        .page-content h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .page-content h2 {
+            color: #667eea;
+            font-size: 2rem;
+            margin: 2rem 0 1rem 0;
+        }
+        
+        .page-content h3 {
+            color: #333;
+            font-size: 1.5rem;
+            margin: 1.5rem 0 1rem 0;
+        }
+        
+        .page-content p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .page-content ul {
+            margin: 1rem 0 1.5rem 2rem;
+        }
+        
+        .page-content li {
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+        
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            backdrop-filter: blur(5px);
+        }
+        
+        .modal-content {
+            background-color: white;
+            margin: 3% auto;
+            padding: 2rem;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 900px;
+            max-height: 85vh;
+            overflow-y: auto;
+            position: relative;
+            animation: modalSlideIn 0.3s ease-out;
+        }
+        
+        @keyframes modalSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            position: absolute;
+            right: 1rem;
+            top: 1rem;
+        }
+        
+        .close:hover {
+            color: #667eea;
+        }
+        
+        .modal h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            padding-right: 3rem;
+        }
+        
+        .modal h3 {
+            color: #333;
+            margin: 1.5rem 0 0.5rem 0;
+        }
+        
+        .modal h4 {
+            color: #667eea;
+            margin: 1.5rem 0 0.5rem 0;
+            font-size: 1.1rem;
+        }
+        
+        .modal ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+        
+        .modal li {
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+        }
+        
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-section p, .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            line-height: 1.6;
+        }
+        
+        .footer-section a:hover {
+            color: #667eea;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.4rem;
+            }
+            
+            .community-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .modal-content {
+                margin: 5% auto;
+                width: 95%;
+                padding: 1.5rem;
+                max-height: 90vh;
+            }
+        }
+        
+        /* Hide/Show Content */
+        .page-section {
+            display: none;
+        }
+        
+        .page-section.active {
+            display: block;
+        }
+        
+        #home.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">&nbsp;</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('home')">Home</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Programs ▾</a>
+                    <div class="dropdown">
+                        <a href="#" onclick="openModal('classicalYogaModal')">Classical Yoga Enhancement</a>
+                        <a href="#" onclick="openModal('zenModal')">Zen Enhancement Programs</a>
+                        <a href="#" onclick="openModal('vipassanaModal')">Vipassana Enhancement</a>
+                        <a href="#" onclick="openModal('professionalModal')">Professional Mindfulness</a>
+                        <a href="#" onclick="openModal('selfInquiryModal')">Enhanced Self-Inquiry</a>
+                        <a href="#" onclick="openModal('stressModal')">Stress Transformation</a>
+                        <a href="#" onclick="openModal('bhaktiModal')">Bhakti & Celebration</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('about-osho')">About Osho</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('founders-journey')">Founder's Journey</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('philosophy')">Philosophy</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('community-events')">Community Events</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('resources')">Resources</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="page-section active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Osho Neo Yoga Meditation Center</h1>
+                <p class="subtitle">Where Classical Wisdom Meets Modern Transformation</p>
+                <p class="description">Professional meditation and preparation techniques integrating time-tested methods from multiple traditions for authentic stress relief and consciousness development</p>
+            </div>
+        </section>
+
+        <!-- Credentials Section -->
+        <section class="credentials">
+            <div class="container">
+                <h2 style="text-align: center; color: #333; margin-bottom: 1rem;">Professional Validation & Traditional Training</h2>
+                <p style="text-align: center; color: #666; margin-bottom: 2rem;">Led by a practitioner with decades of residential training across Korean Zen monasteries, classical yoga ashrams, and innovative preparation approaches. International meditation center founding experience with multi-year teaching across traditions. Currently facilitating mindfulness programs for NYC Department of Health professionals and offering quarterly intensives at Ananda Ashrama.</p>
+                
+                <div class="credentials-grid">
+                    <div class="credential-card">
+                        <h3>Professional Validation</h3>
+                        <p>Current NYC DOH facilitator + Multi-year teaching across traditions (quarterly cycles of 25 healthcare professionals)</p>
+                    </div>
+                    <div class="credential-card">
+                        <h3>Traditional Foundation</h3>
+                        <p>8-year Ananda training including 3 years faculty teaching + International center founding + 10 months Korean Zen monastery + 28+ years Reiki Level 2 + 2+ years Ramana Ashrama</p>
+                    </div>
+                    <div class="credential-card">
+                        <h3>Proven Leadership</h3>
+                        <p>Cross-cultural retreat coordination + Multi-regional teaching authority + Integration instruction expertise + Faculty-level ashrama experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Communities Section -->
+        <section class="communities">
+            <div class="container">
+                <h2>Seven Meditation Communities We Serve</h2>
+                <div class="community-grid">
+                    
+                    <div class="community-card">
+                        <h3>Classical Yoga Practitioners</h3>
+                        <p class="community-tagline">"Complete Your Practice"</p>
+                        <div class="highlight">8-Year Ananda Training + Faculty Teaching + Preparation Enhancement</div>
+                        <p>Enhance your classical yoga practice through clearing techniques that support the seven limbs beyond asanas. Preparation for pranayama, ethical living, concentration, and meditation states, informed by faculty-level teaching experience.</p>
+                        <button class="cta-button" onclick="openModal('classicalYogaModal')">→ Classical Yoga Enhancement Programs</button>
+                    </div>
+
+                    <div class="community-card">
+                        <h3>Zen Practitioners</h3>
+                        <p class="community-tagline">"Embody Your Sitting"</p>
+                        <div class="highlight">Korean Monastery Training + Zazen Preparation</div>
+                        <p>From 10 months Korean Zen monastery training to preparation techniques - authentic zazen practice enhanced through clearing methods that prepare for effortless sitting.</p>
+                        <button class="cta-button" onclick="openModal('zenModal')">→ Zen Enhancement Programs</button>
+                    </div>
+
+                    <div class="community-card">
+                        <h3>Vipassana Practitioners</h3>
+                        <p class="community-tagline">"Enhance Your Witnessing"</p>
+                        <div class="highlight">Emotional Clearing + Natural Mindfulness</div>
+                        <p>Traditional witnessing awareness enhanced with preparation techniques that clear obstacles to natural mindfulness and make witnessing effortless.</p>
+                        <button class="cta-button" onclick="openModal('vipassanaModal')">→ Vipassana Enhancement Programs</button>
+                    </div>
+
+                    <div class="community-card">
+                        <h3>Mindfulness Professionals</h3>
+                        <p class="community-tagline">"Evidence-Based Transformation"</p>
+                        <div class="highlight">NYC DOH Validated + Multi-Year Teaching + Professional Methods</div>
+                        <p>Advanced stress management for healthcare and corporate professionals using preparation techniques - currently facilitating programs for NYC Department of Health, enhanced by years of professional and traditional teaching experience.</p>
+                        <button class="cta-button" onclick="openModal('professionalModal')">→ Professional Mindfulness Programs</button>
+                    </div>
+
+                    <div class="community-card">
+                        <h3>Consciousness Explorers</h3>
+                        <p class="community-tagline">"Direct Self-Recognition"</p>
+                        <div class="highlight">Ramana Lineage + Clearing Preparation</div>
+                        <p>Authentic 'Who am I?' investigation enhanced with clearing techniques that dissolve conditioning and support direct recognition of natural awareness.</p>
+                        <button class="cta-button" onclick="openModal('selfInquiryModal')">→ Self-Inquiry Programs</button>
+                    </div>
+
+                    <div class="community-card">
+                        <h3>Stress Transformation Seekers</h3>
+                        <p class="community-tagline">"Beyond Management"</p>
+                        <div class="highlight">Cathartic Release + Complete Liberation</div>
+                        <p>Move beyond stress management to complete transformation using powerful cathartic and clearing techniques that address the root causes of modern conditioning.</p>
+                        <button class="cta-button" onclick="openModal('stressModal')">→ Stress Transformation Programs</button>
+                    </div>
+
+                    <div class="community-card">
+                        <h3>Bhakti & Celebration Practitioners</h3>
+                        <p class="community-tagline">"Open Your Heart"</p>
+                        <div class="highlight">Sacred Sound + Joyful Expression</div>
+                        <p>Heart-centered practice through kirtan, celebration, and devotional awareness using movement, sound, and community expression that naturally opens the heart.</p>
+                        <button class="cta-button" onclick="openModal('bhaktiModal')">→ Celebration Programs</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Our Approaches Page -->
+    <div id="about-approaches" class="page-section">
+        <div class="page-content">
+            <div class="container">
+                <h1>Understanding Our Preparation-Based Approach</h1>
+                
+                <h2>The Innovation of Preparation Techniques</h2>
+                <p>A revolutionary approach recognized that traditional sitting meditations, developed for different times and cultures, often don't work well for modern people conditioned by constant activity, emotional suppression, and mental overload. Preparation techniques were created to help contemporary practitioners access deeper states of awareness.</p>
+
+                <h3>Key Innovations:</h3>
+                <ul>
+                    <li><strong>Cathartic Techniques:</strong> Stress release through movement followed by stillness</li>
+                    <li><strong>Emotional Clearing:</strong> Safe expression of suppressed emotions before meditation</li>
+                    <li><strong>Physical Preparation:</strong> Movement that prepares the body for comfortable sitting</li>
+                    <li><strong>Celebration as Practice:</strong> Joy and community as spiritual paths</li>
+                </ul>
+
+                <h2>Addressing Questions About Our Methods</h2>
+                <p>We acknowledge that some preparation techniques derive from spiritual teachers who remain controversial figures due to various organizational and personal issues. Like many transformational approaches throughout history, valuable techniques can emerge from complex contexts.</p>
+                
+                <p><strong>Our approach:</strong> We focus on preparation techniques that have helped thousands of people worldwide. We maintain discriminating wisdom and professional standards while sharing what genuinely helps people develop awareness and reduce suffering.</p>
+
+                <h2>Why These Preparation Methods Work</h2>
+                <p>Preparation techniques are particularly effective for:</p>
+                <ul>
+                    <li>Releasing chronic stress and emotional conditioning</li>
+                    <li>Preparing contemporary minds for deeper meditation states</li>
+                    <li>Integrating spiritual practice with daily life</li>
+                    <li>Addressing modern psychological and physical tension patterns</li>
+                </ul>
+
+                <h2>Integration with Traditional Practices</h2>
+                <p>We combine preparation insights with classical yoga, Zen meditation, self-inquiry, and mindfulness approaches. This integration creates comprehensive tools for modern transformation while honoring the wisdom of multiple authentic traditions.</p>
+
+                <h2>Focus on Practice, Not Personality</h2>
+                <p>Our interest is in preparation techniques that help people, not in promoting any ideology or personality. We encourage discrimination and personal responsibility in all practice. For those interested in deeper historical and scholarly analysis, we can direct you to academic research that addresses complex questions about various spiritual movements and their practical contributions.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Founder's Journey Page -->
+    <div id="founders-journey" class="page-section">
+        <div class="page-content">
+            <div class="container">
+                <h1>From Seeking to Serving: A Multi-Traditional Journey</h1>
+                
+                <h2>Early Spiritual Exploration</h2>
+                <p>My spiritual journey began with a deep hunger for authentic transformation and meaning. Like many seekers, I explored various approaches, eventually discovering that genuine practice requires residential immersion and authentic community.</p>
+
+                <h2>International Center Founding: First Steps</h2>
+                <p>My teaching journey began with founding the first meditation center in Korea, where I learned the essential skills of community building, cross-cultural communication, and the practical challenges of making ancient wisdom accessible in contemporary settings. This foundational experience taught me that authentic spiritual community requires both deep practice and skillful organization.</p>
+
+                <h2>Preparation Technique Immersion: The Foundation</h2>
+                <p>My deepest training began with over a year of residential life in a preparation-based ashrama in Delhi, including daily practice and community living. This was followed by years of monthly 3-day retreats, providing consistent intensive practice.</p>
+                
+                <p>The journey culminated in Pune, India, where I completed:</p>
+                <ul>
+                    <li>21-day Mystic Rose process (deepest emotional catharsis work)</li>
+                    <li>7-day No Mind intensive (advanced consciousness techniques)</li>
+                    <li>7-day Facilitator Training (official certification)</li>
+                    <li>2 months of daily practice at the source center</li>
+                </ul>
+
+                <h2>Korean Zen Monastery: Discipline and Depth</h2>
+                <p>Seeking to understand different approaches to consciousness, I spent 10 months in intensive training at Hwagesa Korean Zen Monastery, including:</p>
+                <ul>
+                    <li>Over 1,200 hours of formal sitting meditation</li>
+                    <li>Traditional monastery discipline and community life</li>
+                    <li>Daily work practice and mindful activity</li>
+                    <li>Direct experience of Zen's "no-method" approach</li>
+                </ul>
+
+                <h2>NYC Metropolitan Teaching Experience</h2>
+                <p>Returning to the United States, I spent 4-5 years supporting meditation community development in the NYC metropolitan area, including:</p>
+                <ul>
+                    <li>Regular weekend teaching (90-minute movement and preparation classes)</li>
+                    <li>Cross-cultural retreat coordination with teachers from India, Nepal, and USA</li>
+                    <li>Multi-regional retreat facilitation across NY, NH, PA, and Philadelphia</li>
+                    <li>Community organization and logistics management</li>
+                    <li>Integration teaching combining Eastern wisdom with contemporary accessibility</li>
+                </ul>
+
+                <h2>Classical Yoga: Traditional Foundation</h2>
+                <p>Eight years at Ananda Ashrama provided deep grounding in classical yoga tradition:</p>
+                <ul>
+                    <li>2 years full-time residential study</li>
+                    <li>6 years ongoing practice and community involvement</li>
+                    <li>3 years faculty teaching experience</li>
+                    <li>Study with enlightened teacher Shiva Rudra Balayogi</li>
+                    <li>Annual retreats with renowned Ayurvedic master Vasant Lad</li>
+                    <li>Monthly integration talks for NYC visitors, covering teachings from Thich Nhat Hanh and preparation methods</li>
+                </ul>
+
+                <h2>Self-Inquiry Practice: Direct Investigation</h2>
+                <p>Over 2 years of intensive self-inquiry practice at Ramana Ashrama Queens (3 days per week), plus direct experience at Ramana Maharshi's ashram in India, provided training in consciousness investigation and the direct path of "Who am I?" inquiry.</p>
+
+                <h2>Professional Integration: Contemporary Applications</h2>
+                <p>Currently serving as mindfulness facilitator for NYC Department of Health healthcare professionals, I've learned to translate traditional wisdom for contemporary professional environments while maintaining authentic depth.</p>
+
+                <h2>The Integration That Emerged</h2>
+                <p>Rather than choosing one tradition over others, a natural integration emerged through years of teaching and community leadership that honors the depth of each path while serving modern practitioners. Each tradition contributes essential wisdom:</p>
+                <ul>
+                    <li><strong>International founding experience:</strong> Demonstrates entrepreneurial and organizational skills</li>
+                    <li><strong>Preparation techniques:</strong> Address modern conditioning and stress patterns</li>
+                    <li><strong>Classical yoga:</strong> Provides systematic framework enhanced through teaching experience</li>
+                    <li><strong>Zen practice:</strong> Offers direct pointing enhanced by clearing preparation</li>
+                    <li><strong>Self-inquiry:</strong> Reveals consciousness supported by conditioning release</li>
+                    <li><strong>Professional applications:</strong> Ensures practical relevance and accessibility</li>
+                    <li><strong>Multi-traditional teaching:</strong> Living demonstration of integration philosophy</li>
+                </ul>
+
+                <h2>Current Mission</h2>
+                <p>Today, I serve diverse communities through this integrated approach, drawing from decades of both intensive practice and teaching experience. Whether working with healthcare professionals, yoga practitioners, or serious spiritual seekers, the goal remains the same: genuine transformation through awareness, compassion, and practical wisdom gained through both study and years of community leadership.</p>
+            </div>
+        </div>
+    </div> </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Philosophy Page -->
+    <div id="philosophy" class="page-section">
+        <div class="page-content">
+            <div class="container">
+                <h1>Beyond Dogma: The Art of Authentic Integration</h1>
+                
+                <h2>The Question of Integration</h2>
+                <p>After decades of residential training across multiple authentic traditions - Korean Zen monasteries, classical yoga ashrams, preparation-based approaches, and contemporary professional applications - I'm often asked: "How can you practice so many different approaches without diluting them?"</p>
+
+                <h2>Living the Traditions vs. Studying Them</h2>
+                <p>The key difference is between intellectual sampling and lived immersion. I didn't study these traditions from books or weekend workshops - I lived them residentially, often for years, experiencing their depths and discovering their essential commonalities.</p>
+                
+                <h3>Residential Experience Included:</h3>
+                <ul>
+                    <li><strong>Preparation Ashrama Delhi:</strong> Over 1 year residential life with daily practice</li>
+                    <li><strong>Korean Zen Monastery:</strong> 10 months intensive training with 1,200+ hours sitting</li>
+                    <li><strong>Ananda Ashrama:</strong> 8 years (2 full-time + 6 ongoing) classical yoga immersion</li>
+                    <li><strong>Ramana Ashrama Queens:</strong> Over 2 years self-inquiry practice (3 days/week)</li>
+                </ul>
+
+                <h2>What Integration Is NOT</h2>
+                <ul>
+                    <li><strong>Spiritual shopping:</strong> Collecting techniques without depth</li>
+                    <li><strong>Cultural appropriation:</strong> Taking practices without understanding context</li>
+                    <li><strong>Syncretism:</strong> Artificially combining incompatible elements</li>
+                    <li><strong>Compromise:</strong> Watering down traditions to avoid conflict</li>
+                </ul>
+
+                <h2>What Authentic Integration IS</h2>
+                <ul>
+                    <li><strong>Natural synthesis:</strong> Commonalities emerging through deep practice</li>
+                    <li><strong>Respectful honoring:</strong> Acknowledging each tradition's unique contribution</li>
+                    <li><strong>Practical wisdom:</strong> Using what actually helps people transform</li>
+                    <li><strong>Non-dogmatic spirituality:</strong> Experience over ideology</li>
+                </ul>
+
+                <h2>The Universal Pointing</h2>
+                <p>Through years of intensive practice, it became clear that all authentic traditions point toward the same essential realization:</p>
+                <ul>
+                    <li><strong>Awareness itself</strong> is our true nature</li>
+                    <li><strong>Conditioning</strong> creates the illusion of separation and suffering</li>
+                    <li><strong>Practices</strong> help us recognize what we already are</li>
+                    <li><strong>Community</strong> supports individual awakening</li>
+                    <li><strong>Service</strong> expresses natural compassion</li>
+                </ul>
+
+                <h2>Why Integration Serves Modern Practitioners</h2>
+                <p><strong>Contemporary Challenges Need Multiple Approaches:</strong></p>
+                <ul>
+                    <li><strong>Mental overload:</strong> Preparation techniques release before stillness</li>
+                    <li><strong>Emotional suppression:</strong> Cathartic methods clear blocked energy</li>
+                    <li><strong>Physical tension:</strong> Movement prepares for sitting practice</li>
+                    <li><strong>Professional stress:</strong> Evidence-based approaches provide credibility</li>
+                    <li><strong>Cultural conditioning:</strong> Multiple perspectives prevent fundamentalism</li>
+                </ul>
+
+                <h2>How Integration Honors Each Tradition</h2>
+                
+                <h3>Classical Yoga Provides:</h3>
+                <ul>
+                    <li>Systematic framework (eight limbs) enhanced through preparation</li>
+                    <li>Traditional breathing practices supported by clearing techniques</li>
+                    <li>Ethical foundation strengthened through emotional clearing</li>
+                    <li>Time-tested philosophy integrated with contemporary methods</li>
+                </ul>
+
+                <h3>Zen Offers:</h3>
+                <ul>
+                    <li>Direct pointing to natural awareness enhanced by preparation</li>
+                    <li>Non-conceptual understanding supported by movement and expression</li>
+                    <li>Integration of practice with daily activity through preparation principles</li>
+                    <li>Simplicity and "no-method" approach revealed through clearing</li>
+                </ul>
+
+                <h3>Preparation Techniques Contribute:</h3>
+                <ul>
+                    <li>Movement approaches addressing modern stress patterns</li>
+                    <li>Contemporary accessibility for ancient wisdom</li>
+                    <li>Non-dogmatic spirituality and celebration as practice</li>
+                    <li>Community celebration and heart-opening through expression</li>
+                </ul>
+
+                <h3>Self-Inquiry Offers:</h3>
+                <ul>
+                    <li>Direct investigation into consciousness supported by preparation</li>
+                    <li>Non-conceptual self-recognition enhanced through conditioning release</li>
+                    <li>Liberation from identity patterns through clearing techniques</li>
+                    <li>Natural awareness without effort revealed through preparation</li>
+                </ul>
+
+                <h3>Professional Applications Provide:</h3>
+                <ul>
+                    <li>Evidence-based validation and secular accessibility</li>
+                    <li>Contemporary stress management applications using preparation</li>
+                    <li>Healthcare professional credibility through research</li>
+                    <li>Workplace integration of preparation principles</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Community Events Page -->
+    <div id="community-events" class="page-section">
+        <div class="page-content">
+            <div class="container">
+                <h1>Community Events & Celebrations</h1>
+                
+                <h2>Regular Community Programming</h2>
+                
+                <h3>Weekly Schedule:</h3>
+                <ul>
+                    <li><strong>Tuesday OR Thursday:</strong> 7:00-8:30 PM (alternating weekly across all programs)</li>
+                    <li><strong>Third Saturday:</strong> 11:00 AM-2:00 PM Weekly Intensives (rotating community focus)</li>
+                    <li><strong>First Saturday:</strong> 11:00 AM-5:00 PM Monthly Intensives (optional Jones Beach visit in summer)</li>
+                    <li><strong>Second & Fourth Sunday:</strong> 11:00 AM-2:00 PM Online Sessions via Zoom</li>
+                </ul>
+
+                <h3>Monthly Events:</h3>
+                <ul>
+                    <li><strong>First Friday:</strong> Kirtan & Meditation Evening (7:00-9:00 PM)</li>
+                    <li><strong>First Saturday:</strong> Monthly Community Intensive (11:00 AM-5:00 PM, comprehensive programming)</li>
+                    <li><strong>Third Saturday:</strong> Weekly Intensive with rotating community themes (11:00 AM-2:00 PM)</li>
+                    <li><strong>Monthly:</strong> Community Potluck with Meditation (seasonal scheduling)</li>
+                </ul>
+
+                <h3>Quarterly Events:</h3>
+                <ul>
+                    <li><strong>Seasonal Celebrations:</strong> Solstices and Equinoxes with community meditation</li>
+                    <li><strong>Ananda Ashrama Intensives:</strong> Traditional classical yoga programs</li>
+                    <li><strong>Professional Development:</strong> Healthcare and corporate workshops</li>
+                </ul>
+
+                <h3>Special Events:</h3>
+                <ul>
+                    <li><strong>Buddha Day Celebration:</strong> Vipassana community focus</li>
+                    <li><strong>Celebration Day:</strong> Preparation techniques and community joy</li>
+                    <li><strong>New Year Visioning:</strong> Community intention setting</li>
+                    <li><strong>Summer Celebration:</strong> Outdoor kirtan and community gathering with optional Jones Beach visits</li>
+                </ul>
+
+                <h2>Summer Enhancement Programming</h2>
+                
+                <h3>Jones Beach Integration (Summer Months):</h3>
+                <ul>
+                    <li><strong>First Saturday Monthly Intensives:</strong> Optional beach visits after 5:00 PM intensive sessions</li>
+                    <li><strong>Community Beach Gatherings:</strong> Sunset meditation and celebration by the ocean</li>
+                    <li><strong>Summer Solstice Special:</strong> Extended beach celebration with kirtan and silent sitting</li>
+                    <li><strong>Outdoor Preparation Practices:</strong> Beach-appropriate movement and breathing techniques</li>
+                </ul>
+
+                <h2>Community-Specific Programming</h2>
+                
+                <h3>Classical Yoga Community:</h3>
+                <ul>
+                    <li>Weekly preparation classes</li>
+                    <li>Monthly intensive workshops</li>
+                    <li>Quarterly Ananda Ashrama connections</li>
+                    <li>Seven limbs enhancement training</li>
+                </ul>
+
+                <h3>Professional Mindfulness:</h3>
+                <ul>
+                    <li>Monthly healthcare professional workshops</li>
+                    <li>Corporate wellness presentations</li>
+                    <li>Evidence-based training sessions</li>
+                    <li>Professional development continuing education</li>
+                </ul>
+
+                <h3>Advanced Practitioners:</h3>
+                <ul>
+                    <li>Monthly self-inquiry circles</li>
+                    <li>Advanced meditation retreats</li>
+                    <li>Philosophy discussion groups</li>
+                    <li>Integration practice sessions</li>
+                </ul>
+
+                <p style="margin-top: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;"><strong>Join Our Community:</strong> All events welcome beginners and experienced practitioners alike. Our approach honors the depth of each tradition while creating an inclusive, supportive environment for exploration and growth.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resources Page -->
+    <div id="resources" class="page-section">
+        <div class="page-content">
+            <div class="container">
+                <h1>Resources & Learning Hub</h1>
+                
+                <h2>Recommended Reading by Tradition</h2>
+                
+                <h3>Classical Yoga & Pranayama:</h3>
+                <ul>
+                    <li><em>"The Science of Enlightenment"</em> - Swami Rama</li>
+                    <li><em>"Light on Pranayama"</em> - B.K.S. Iyengar</li>
+                    <li><em>"The Yoga Sutras of Patanjali"</em> - Swami Satchidananda translation</li>
+                    <li><em>"Yoga: The Path to Liberation"</em> - Contemporary commentary on Patanjali</li>
+                    <li><em>"The Supreme Understanding"</em> - Discourse on Patanjali's system</li>
+                    <li><em>"Hatha Yoga Pradipika"</em> - Classical pranayama text</li>
+                </ul>
+
+                <h3>Zen & Direct Awareness:</h3>
+                <ul>
+                    <li><em>"Zen Mind, Beginner's Mind"</em> - Suzuki Roshi</li>
+                    <li><em>"The Three Pillars of Zen"</em> - Philip Kapleau</li>
+                    <li><em>"Everyday Zen"</em> - Charlotte Joko Beck</li>
+                    <li><em>"Neither This Nor That"</em> - Talks on Zen approach to meditation</li>
+                    <li><em>"The Empty Boat"</em> - Zen stories and their meaning</li>
+                    <li><em>"Zen: The Path of Paradox"</em> - Understanding Zen through paradox</li>
+                </ul>
+
+                <h3>Vipassana & Mindfulness:</h3>
+                <ul>
+                    <li><em>"Mindfulness in Plain English"</em> - Bhante Henepola Gunaratana</li>
+                    <li><em>"When Things Fall Apart"</em> - Pema Chödrön</li>
+                    <li><em>"The Heart of Buddhist Meditation"</em> - Nyanaponika Thera</li>
+                    <li><em>"The Art of Living"</em> - Vipassana meditation approach</li>
+                    <li><em>"Meditation: The Art of Ecstasy"</em> - Understanding meditation through witnessing</li>
+                    <li><em>"The Path of Meditation"</em> - Witnessing and awareness practices</li>
+                </ul>
+
+                <h3>Self-Inquiry & Advaita:</h3>
+                <ul>
+                    <li><em>"I Am That"</em> - Nisargadatta Maharaj</li>
+                    <li><em>"Be As You Are"</em> - Ramana Maharshi (David Godman editor)</li>
+                    <li><em>"The Direct Path"</em> - Greg Goode</li>
+                    <li><em>"Who Am I?"</em> - The original Ramana Maharshi inquiry</li>
+                    <li><em>"The Ultimate Mystery"</em> - Direct pointing to consciousness</li>
+                    <li><em>"The Book of Nothing"</em> - Understanding the void and recognition</li>
+                </ul>
+
+                <h3>Professional Mindfulness & Stress:</h3>
+                <ul>
+                    <li><em>"Full Catastrophe Living"</em> - Jon Kabat-Zinn</li>
+                    <li><em>"The Mindful Nurse"</em> - Carmel Sheridan</li>
+                    <li><em>"Search Inside Yourself"</em> - Chade-Meng Tan</li>
+                    <li><em>"When the Body Says No"</em> - Gabor Maté</li>
+                    <li><em>"The Body Keeps the Score"</em> - Bessel van der Kolk</li>
+                    <li><em>"Waking the Tiger"</em> - Peter Levine</li>
+                </ul>
+
+                <h3>Meditation & Transformation:</h3>
+                <ul>
+                    <li><em>"Meditation: The First and Last Freedom"</em> - Guide to cathartic meditation</li>
+                    <li><em>"From Unconsciousness to Consciousness"</em> - Understanding stress transformation</li>
+                    <li><em>"The Revolution from Within"</em> - Internal transformation approaches</li>
+                    <li><em>"Stress Without Distress"</em> - Hans Selye</li>
+                    <li><em>"From Medication to Meditation"</em> - Alternative approaches to professional stress</li>
+                    <li><em>"The Workplace Revolution"</em> - Transforming work through awareness</li>
+                </ul>
+
+                <h3>Bhakti & Celebration:</h3>
+                <ul>
+                    <li><em>"Chants of a Lifetime"</em> - Krishna Das</li>
+                    <li><em>"The Heart of Sound"</em> - Russill Paul</li>
+                    <li><em>"Bhakti Yoga: Tales and Teachings"</em> - Ram Dass</li>
+                    <li><em>"Come Come Yet Again Come"</em> - Devotional poetry and practice</li>
+                    <li><em>"The Beloved"</em> - Heart-centered spiritual approach</li>
+                    <li><em>"Love, Freedom, and Aloneness"</em> - Understanding love and celebration</li>
+                </ul>
+
+                <h2>Practice Guides for Home Use</h2>
+                
+                <h3>Beginning Practice:</h3>
+                <ul>
+                    <li>Daily Preparation Guide - Basic clearing and centering techniques</li>
+                    <li>Professional Stress Reset Toolkit - Quick workplace clearing methods</li>
+                    <li>Moving Awareness Practice Guide - Awareness in activity through preparation</li>
+                    <li>Self-Inquiry Preparation Guide - Clearing techniques supporting "Who am I?" investigation</li>
+                    <li>Heart Opening Basics - Introduction to expression and celebration practices</li>
+                </ul>
+
+                <h3>Intermediate Practice:</h3>
+                <ul>
+                    <li>Complete Preparation Series - Advanced clearing and cathartic protocols</li>
+                    <li>Cathartic Meditation Guide - Full technique instructions for emotional release</li>
+                    <li>Heart Opening Practice Manual - Expression and celebration techniques</li>
+                    <li>Integration Mastery Guide - Combining clearing with traditional approaches</li>
+                </ul>
+
+                <h3>Advanced Practice:</h3>
+                <ul>
+                    <li>Conditioning Release Intensive - Deep clearing work for serious practitioners</li>
+                    <li>Silent Sitting Preparation - Advanced preparation for long sitting practice</li>
+                    <li>Professional Integration Manual - Workplace applications of clearing principles</li>
+                    <li>Community Leadership Guide - Facilitating group clearing and celebration</li>
+                </ul>
+
+                <h2>Frequently Asked Questions</h2>
+                
+                <h3>About Our Approach:</h3>
+                <p><strong>Q: How do you integrate so many different traditions?</strong><br>
+                A: Through decades of residential practice in each tradition, natural commonalities emerged. All authentic paths point toward awareness, compassion, and freedom from suffering.</p>
+
+                <p><strong>Q: Is this approach secular or spiritual?</strong><br>
+                A: We serve both secular and spiritual practitioners by focusing on practical benefits while supporting deeper exploration for those interested.</p>
+
+                <h3>About Our Methods:</h3>
+                <p><strong>Q: How do you address questions about preparation techniques?</strong><br>
+                A: We focus on methods that help people while maintaining discriminating wisdom. We're interested in what works for transformation, not promoting any particular ideology.</p>
+
+                <p><strong>Q: Are you promoting any specific organization?</strong><br>
+                A: No. We share techniques because they're effective, not to promote any organization or ideology.</p>
+
+                <h3>About Practice:</h3>
+                <p><strong>Q: Do I need prior meditation experience?</strong><br>
+                A: No. We offer programs for complete beginners through advanced practitioners.</p>
+
+                <p><strong>Q: Can I practice if I have physical limitations?</strong><br>
+                A: Yes. All practices can be adapted for different physical abilities.</p>
+
+                <h2>Community Resources</h2>
+                
+                <h3>Online Community:</h3>
+                <ul>
+                    <li>Monthly online alumni gatherings</li>
+                    <li>Practice support groups</li>
+                    <li>Question and answer sessions</li>
+                    <li>Community celebrations and events</li>
+                </ul>
+
+                <h3>Local Resources:</h3>
+                <ul>
+                    <li>Practice partner matching</li>
+                    <li>Home practice groups</li>
+                    <li>Community service projects</li>
+                    <li>Seasonal celebrations and gatherings</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" class="page-section">
+        <div class="page-content">
+            <div class="container">
+                <h1>Contact & Connect</h1>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin-top: 2rem;">
+                    
+                    <div>
+                        <h2>Center Information</h2>
+                        <p><strong>Osho Neo Yoga Meditation Center</strong><br>
+                        Farmingdale, NY 11735<br>
+                        Nassau County, Long Island</p>
+                        
+                        <p style="margin-top: 1.5rem;"><strong>Professional Validation:</strong><br>
+                        NYC Department of Health<br>
+                        Healthcare Professional Programs</p>
+                        
+                        <p style="margin-top: 1.5rem;"><strong>Traditional Training Base:</strong><br>
+                        Ananda Ashrama<br>
+                        Monroe, NY</p>
+                    </div>
+                    
+                    <div>
+                        <h2>Program Inquiries</h2>
+                        <p>For information about specific programs or to schedule a consultation, please reach out using your preferred method:</p>
+                        
+                        <ul style="margin-top: 1rem;">
+                            <li><strong>Classical Yoga Enhancement:</strong> Traditional foundation with preparation support</li>
+                            <li><strong>Professional Mindfulness:</strong> Healthcare and corporate programs</li>
+                            <li><strong>Advanced Practice:</strong> Integration and consciousness exploration</li>
+                            <li><strong>Community Events:</strong> Regular gatherings and celebrations</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                <div style="margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 12px;">
+                    <h2>Community-Specific Consultation</h2>
+                    <p>We offer personalized consultations tailored to your background and interests:</p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                        <div>
+                            <h3>New to Meditation</h3>
+                            <p>Gentle introduction with practical preparation techniques for stress relief and awareness development.</p>
+                        </div>
+                        <div>
+                            <h3>Experienced Practitioners</h3>
+                            <p>Advanced integration and deepening practice across multiple traditions with preparation enhancement.</p>
+                        </div>
+                        <div>
+                            <h3>Healthcare Professionals</h3>
+                            <p>Evidence-based approaches with professional validation and workplace applications.</p>
+                        </div>
+                        <div>
+                            <h3>Spiritual Seekers</h3>
+                            <p>Authentic traditional training with contemporary accessibility and preparation support.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 3rem; text-align: center; padding: 2rem; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius: 12px;">
+                    <h2>Ready to Begin Your Journey?</h2>
+                    <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">Join our community of practitioners exploring authentic transformation through integrated meditation practice.</p>
+                    <p style="font-size: 1rem; opacity: 0.9;">Contact us to schedule your consultation and discover which of our seven community approaches resonates most with your path.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals for Each Community Program -->
+    
+    <!-- Classical Yoga Modal -->
+    <div id="classicalYogaModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('classicalYogaModal')">&times;</span>
+            <h2>Classical Yoga Enhancement Programs</h2>
+            <h3>Beyond Asanas - Supporting the Seven Limbs</h3>
+
+            <p><strong>Background:</strong> Drawing from 8 years intensive training at Ananda Ashrama (2 years full-time classical study) including daily practice with enlightened teacher Shiva Rudra Balayogi and renowned Ayurvedic master Vasant Lad.</p>
+
+            <h4>Common Problems Classical Yoga Practitioners Face:</h4>
+            <ul>
+                <li><strong>Asana-Only Focus:</strong> Most classes emphasize physical postures while neglecting the transformational limbs</li>
+                <li><strong>Pranayama Struggles:</strong> Breathing practices feel forced or create tension instead of regulation</li>
+                <li><strong>Ethical Limb Confusion:</strong> Yamas and niyamas remain theoretical rather than lived experience</li>
+                <li><strong>Concentration Difficulties:</strong> Mind remains agitated during meditation attempts</li>
+                <li><strong>Pratyahara Challenges:</strong> Cannot naturally withdraw senses or achieve inner focus</li>
+                <li><strong>Meditation Frustration:</strong> Sitting practice feels effortful rather than natural</li>
+                <li><strong>Integration Gap:</strong> Yoga remains separate from daily life rather than transforming it</li>
+            </ul>
+
+            <h4>How Our Preparation Methods Solve These Challenges:</h4>
+            <ul>
+                <li><strong>Ethical Living Support:</strong> Clearing conditioning patterns that block authentic yamas and niyamas practice</li>
+                <li><strong>Pranayama Preparation:</strong> Release techniques that prepare the nervous system for effortless breathing practices</li>
+                <li><strong>Pratyahara Enhancement:</strong> Cathartic methods that make sensory withdrawal natural rather than forced</li>
+                <li><strong>Dharana Support:</strong> Clearing mental agitation so concentration becomes spontaneous</li>
+                <li><strong>Dhyana Preparation:</strong> Dissolving psychological barriers to natural meditation states</li>
+                <li><strong>Samadhi Gateway:</strong> Understanding how preparation leads to absorption without effort</li>
+                <li><strong>Daily Life Integration:</strong> Techniques that bring yogic awareness into modern living</li>
+            </ul>
+
+            <h4>Programs Offered:</h4>
+            <ul>
+<li><strong>Pranayama Preparation Workshop:</strong> Clearing techniques that make breathing practices effortless</li>
+                <li><strong>Seven Limbs Support Intensive:</strong> Comprehensive enhancement for classical practice</li>
+                <li><strong>Ethical Living Through Clearing:</strong> Practical application of yamas/niyamas</li>
+                <li><strong>Meditation Preparation Training:</strong> Clearing techniques for natural sitting and concentration</li>
+                <li><strong>Classical Integration Retreats:</strong> Combining preparation with traditional framework</li>
+            </ul>
+
+            <h4>Recommended Reading:</h4>
+            <ul>
+                <li><em>"The Science of Enlightenment"</em> - Swami Rama</li>
+                <li><em>"Light on Pranayama"</em> - B.K.S. Iyengar</li>
+                <li><em>"The Yoga Sutras of Patanjali"</em> - Swami Satchidananda translation</li>
+                <li><em>"Yoga: The Path to Liberation"</em> - Contemporary commentary on Patanjali</li>
+                <li><em>"The Supreme Understanding"</em> - Discourse on Patanjali's system</li>
+                <li><em>"Hatha Yoga Pradipika"</em> - Classical pranayama text</li>
+            </ul>
+
+            <h4>Schedule & Investment:</h4>
+            <p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+            <p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+            <p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+            <p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+            <p><strong>Investment:</strong> TBD</p>
+        </div>
+    </div>       
+
+    <!-- Professional Mindfulness Modal -->
+    <div id="professionalModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('professionalModal')">&times;</span>
+            <h2>Professional Mindfulness Programs</h2>
+            <h3>Evidence-Based Stress Transformation</h3>
+
+            <p><strong>Validation:</strong> Professionally validated through current work with NYC Department of Health healthcare professionals (quarterly cycles of 25 participants). Enhanced by multi-year teaching experience across professional and traditional settings, including faculty-level instruction at Ananda Ashrama.</p>
+
+            <h4>Common Problems Professional Practitioners Face:</h4>
+            <ul>
+                <li><strong>Time Constraints:</strong> Cannot find time for traditional meditation practices</li>
+                <li><strong>High-Pressure Environment:</strong> Workplace stress overwhelms mindfulness attempts</li>
+                <li><strong>Accumulated Tension:</strong> Years of professional stress create physical and emotional blocks</li>
+                <li><strong>Burnout Symptoms:</strong> Emotional exhaustion and cynicism despite mindfulness training</li>
+                <li><strong>Implementation Gap:</strong> Workplace mindfulness feels artificial or ineffective</li>
+                <li><strong>Emotional Regulation:</strong> Difficulty processing intense emotions in professional settings</li>
+                <li><strong>Sustainable Practice:</strong> Cannot maintain consistency with traditional approaches</li>
+            </ul>
+
+            <h4>How Our Preparation Methods Solve Professional Challenges:</h4>
+            <ul>
+                <li><strong>Rapid Stress Discharge:</strong> Professional-appropriate techniques developed through years of teaching experience</li>
+                <li><strong>Emotional Regulation Mastery:</strong> Tools for processing difficult emotions through clearing</li>
+                <li><strong>Workplace Integration:</strong> Discrete methods adapted from preparation principles</li>
+                <li><strong>Burnout Prevention:</strong> Root-cause approaches using clearing to address systemic stress</li>
+                <li><strong>Enhanced Decision-Making:</strong> Clarity practices through preparation and clearing</li>
+                <li><strong>Sustainable Systems:</strong> Short, effective practices that fit professional schedules</li>
+                <li><strong>Evidence-Based Results:</strong> Measurable outcomes through preparation-enhanced mindfulness</li>
+            </ul>
+
+            <h4>Programs Offered:</h4>
+            <ul>
+                <li><strong>Healthcare Professional Wellness:</strong> Specialized clearing methods for medical workers</li>
+                <li><strong>Corporate Executive Stress Mastery:</strong> High-level transformation using professional-appropriate techniques</li>
+                <li><strong>Mindfulness Teacher Development:</strong> Professional skill enhancement with preparation methodology</li>
+                <li><strong>Evidence-Based Training:</strong> Scientifically-validated approaches enhanced with clearing</li>
+                <li><strong>Workplace Integration Consulting:</strong> Custom organizational programs with practical implementation</li>
+            </ul>
+
+            <h4>Teaching Experience & Credibility:</h4>
+            <p><strong>Multi-Year Teaching Background:</strong> Extensive experience includes faculty-level instruction, cross-cultural retreat coordination, and integration teaching combining Eastern wisdom (including Thich Nhat Hanh's mindfulness approach) with preparation methods for contemporary accessibility.</p>
+
+            <h4>Recommended Reading:</h4>
+            <ul>
+                <li><em>"Full Catastrophe Living"</em> - Jon Kabat-Zinn</li>
+                <li><em>"The Mindful Nurse"</em> - Carmel Sheridan</li>
+                <li><em>"Search Inside Yourself"</em> - Chade-Meng Tan</li>
+                <li><em>"Stress Without Distress"</em> - Hans Selye</li>
+                <li><em>"The Workplace Revolution"</em> - Transforming work through awareness</li>
+                <li><em>"From Medication to Meditation"</em> - Alternative approaches to professional stress</li>
+            </ul>
+
+            <h4>Schedule & Investment:</h4>
+            <p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+            <p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+            <p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+            <p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+            <p><strong>Corporate Programs:</strong> Custom scheduling and location</p>
+            <p><strong>Investment:</strong> TBD</p>
+        </div>
+    </div>
+
+    <!-- Self-Inquiry Modal -->
+    <div id="selfInquiryModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('selfInquiryModal')">&times;</span>
+            <h2>Enhanced Self-Inquiry Programs</h2>
+            <h3>Preparation for Direct Self-Recognition</h3>
+
+            <p><strong>Background:</strong> Over 2 years intensive self-inquiry practice at Ramana Ashrama Queens (3 days per week), plus direct experience at Ramana Maharshi's ashram in India. Training in consciousness investigation and the direct path of "Who am I?" inquiry.</p>
+
+            <h4>Common Problems Self-Inquiry Practitioners Face:</h4>
+            <ul>
+                <li><strong>Mental Conceptualization:</strong> Inquiry becomes intellectual rather than direct investigation</li>
+                <li><strong>Ego Seeking:</strong> "Who" that seeks enlightenment becomes strengthened rather than dissolved</li>
+                <li><strong>Emotional Conditioning:</strong> Identity patterns and emotional reactions block clear seeing</li>
+                <li><strong>Effort in Non-Effort:</strong> Trying to investigate creates more seeking rather than recognition</li>
+                <li><strong>Spiritual Bypassing:</strong> Using inquiry to avoid dealing with psychological material</li>
+                <li><strong>Integration Challenges:</strong> Glimpses of recognition don't translate to daily life</li>
+                <li><strong>Teacher Dependency:</strong> Relying on external confirmation rather than direct knowing</li>
+            </ul>
+
+            <h4>How Our Preparation Methods Support Self-Inquiry:</h4>
+            <ul>
+                <li><strong>Conditioning Release Preparation:</strong> Cathartic techniques that clear mental agitation before investigation</li>
+                <li><strong>Identity Pattern Dissolution:</strong> Clearing techniques that release conditioning blocking recognition</li>
+                <li><strong>Emotional Processing Support:</strong> Safe methods for handling psychological material that arises</li>
+                <li><strong>Non-Conceptual Recognition:</strong> Direct pointing supported by clearing that bypasses mental seeking</li>
+                <li><strong>Integration Support:</strong> Practical guidance for living from recognized awareness</li>
+                <li><strong>Beyond Technique Recognition:</strong> Understanding how clearing reveals what you are beyond all methods</li>
+                <li><strong>Natural Inquiry:</strong> Investigation that arises spontaneously after preparation</li>
+            </ul>
+
+            <h4>Programs Offered:</h4>
+            <ul>
+                <li><strong>Self-Inquiry Fundamentals:</strong> "Who am I?" investigation with clearing preparation</li>
+                <li><strong>Consciousness Exploration:</strong> Direct recognition practice with supportive clearing techniques</li>
+                <li><strong>Conditioning Release Workshop:</strong> Clearing methods supporting self-investigation</li>
+                <li><strong>Integration Circles:</strong> Group inquiry and sharing with clearing support</li>
+                <li><strong>Advanced Recognition Retreats:</strong> Intensive consciousness work with clearing enhancement</li>
+            </ul>
+
+            <h4>Recommended Reading:</h4>
+            <ul>
+                <li><em>"I Am That"</em> - Nisargadatta Maharaj</li>
+                <li><em>"Be As You Are"</em> - Ramana Maharshi (David Godman editor)</li>
+                <li><em>"The Direct Path"</em> - Greg Goode</li>
+                <li><em>"Who Am I?"</em> - The original Ramana Maharshi inquiry</li>
+                <li><em>"The Ultimate Mystery"</em> - Direct pointing to consciousness</li>
+                <li><em>"The Book of Nothing"</em> - Understanding the void and recognition</li>
+            </ul>
+
+            <h4>Schedule & Investment:</h4>
+            <p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+            <p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+            <p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+            <p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+            <p><strong>Investment:</strong> TBD</p>
+        </div>
+    </div>
+
+    <!-- Stress Transformation Modal -->
+    <div id="stressModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('stressModal')">&times;</span>
+            <h2>Stress Transformation Programs</h2>
+            <h3>Beyond Management to Complete Liberation</h3>
+
+            <p><strong>Approach:</strong> Move beyond stress management to complete transformation using powerful cathartic and clearing techniques that address the root causes of modern conditioning.</p>
+
+            <h4>Common Problems Stress Management Approaches Face:</h4>
+            <ul>
+                <li><strong>Symptom-Only Focus:</strong> Traditional methods manage symptoms without addressing root causes</li>
+                <li><strong>Accumulated Tension:</strong> Years of suppressed stress create physical and emotional blocks</li>
+                <li><strong>Medication Dependency:</strong> Reliance on pharmaceuticals without addressing underlying patterns</li>
+                <li><strong>Temporary Relief:</strong> Stress returns quickly after relaxation techniques</li>
+                <li><strong>Emotional Suppression:</strong> Stress management often involves pushing down rather than processing</li>
+                <li><strong>Modern Conditioning:</strong> Contemporary lifestyle creates stress faster than traditional methods can address</li>
+                <li><strong>Integration Challenges:</strong> Cannot maintain stress-free states in demanding environments</li>
+            </ul>
+
+            <h4>How Our Methods Transform Stress at the Root:</h4>
+            <ul>
+                <li><strong>Cathartic Stress Discharge:</strong> Powerful movement and breathing techniques that release accumulated tension</li>
+                <li><strong>Emotional Liberation Methods:</strong> Safe expression of suppressed emotions through cathartic techniques</li>
+                <li><strong>Energy Transformation Training:</strong> Convert stress energy into vitality through clearing methods</li>
+                <li><strong>Root Cause Resolution:</strong> Address conditioning patterns creating stress through preparation techniques</li>
+                <li><strong>Natural Peace Recognition:</strong> Discover the stillness that emerges after cathartic release</li>
+                <li><strong>Lifestyle Integration:</strong> Practical methods for maintaining transformation in daily life</li>
+                <li><strong>Prevention Systems:</strong> Regular clearing that prevents stress accumulation</li>
+            </ul>
+
+            <h4>Programs Offered:</h4>
+            <ul>
+                <li><strong>Cathartic Meditation Intensive:</strong> Complete stress-release methodology using multiple techniques</li>
+                <li><strong>Emotional Freedom Workshop:</strong> Clear suppressed emotions through cathartic methods</li>
+                <li><strong>Energy Transformation Training:</strong> Convert stress into vitality through clearing techniques</li>
+                <li><strong>Workplace Stress Mastery:</strong> Professional-level transformation using workplace-appropriate methods</li>
+                <li><strong>Monthly Stress Release Gatherings:</strong> Community support and ongoing practice</li>
+            </ul>
+
+            <h4>Recommended Reading:</h4>
+            <ul>
+                <li><em>"When the Body Says No"</em> - Gabor Maté</li>
+                <li><em>"The Body Keeps the Score"</em> - Bessel van der Kolk</li>
+                <li><em>"Waking the Tiger"</em> - Peter Levine</li>
+                <li><em>"Meditation: The First and Last Freedom"</em> - Guide to cathartic meditation</li>
+                <li><em>"From Unconsciousness to Consciousness"</em> - Understanding stress transformation</li>
+                <li><em>"The Revolution from Within"</em> - Internal transformation approaches</li>
+            </ul>
+
+            <h4>Schedule & Investment:</h4>
+            <p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+            <p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+            <p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+            <p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+            <p><strong>Investment:</strong> TBD</p>
+        </div>
+    </div>
+
+    <!-- Bhakti & Celebration Modal -->
+    <div id="bhaktiModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('bhaktiModal')">&times;</span>
+            <h2>Bhakti & Celebration Programs</h2>
+            <h3>Heart Opening Through Sacred Sound & Joyful Expression</h3>
+
+            <p><strong>Approach:</strong> Heart-centered practice integrating kirtan, celebration, and devotional awareness through movement, sound, and community expression that naturally opens the heart.</p>
+
+            <h4>Common Problems Bhakti Practitioners Face:</h4>
+            <ul>
+                <li><strong>Heart Closure:</strong> Emotional walls and past hurts block natural devotional feeling</li>
+                <li><strong>Mental Approach:</strong> Devotional practice becomes intellectual rather than heartfelt</li>
+                <li><strong>Self-Consciousness:</strong> Inhibition and social conditioning block authentic expression</li>
+                <li><strong>Overly Serious Practice:</strong> Spiritual approaches feel heavy rather than joyful</li>
+                <li><strong>Isolation in Practice:</strong> Individual practice lacks community support and energy</li>
+                <li><strong>Cultural Barriers:</strong> Traditional forms feel foreign or inaccessible</li>
+                <li><strong>Emotional Suppression:</strong> Cannot access natural love and devotion due to conditioning</li>
+            </ul>
+
+            <h4>How Our Methods Transform Heart Practice:</h4>
+            <ul>
+                <li><strong>Heart Opening Preparation:</strong> Movement and expression techniques that dissolve emotional armor</li>
+                <li><strong>Sacred Sound Liberation:</strong> Vocal expression techniques that release emotional suppression</li>
+                <li><strong>Community Heart Opening:</strong> Group practices that dissolve isolation and create authentic connection</li>
+                <li><strong>Celebration as Practice:</strong> Joy-based techniques that transform spiritual "work" into natural expression</li>
+                <li><strong>Inhibition Release:</strong> Safe methods for overcoming self-consciousness in expression</li>
+                <li><strong>Contemporary Accessibility:</strong> Ancient heart practices adapted for modern practitioners</li>
+                <li><strong>Emotional Integration:</strong> Processing difficult emotions to access natural love</li>
+            </ul>
+
+            <h4>Programs Offered:</h4>
+            <ul>
+                <li><strong>Monthly Kirtan & Expression:</strong> First Friday evenings with sacred sound and community practices</li>
+                <li><strong>Heart Opening Intensives:</strong> Movement and celebration methods combined with devotional practice</li>
+                <li><strong>Celebration Gatherings:</strong> Community events honoring seasonal cycles through joyful expression</li>
+                <li><strong>Sacred Sound & Silence Retreats:</strong> Full-day intensives balancing expression and stillness</li>
+                <li><strong>Community Potluck Celebrations:</strong> Monthly gatherings with practice and shared nourishment</li>
+            </ul>
+
+            <h4>Recommended Reading:</h4>
+            <ul>
+                <li><em>"Chants of a Lifetime"</em> - Krishna Das</li>
+                <li><em>"The Heart of Sound"</em> - Russill Paul</li>
+                <li><em>"Bhakti Yoga: Tales and Teachings"</em> - Ram Dass</li>
+                <li><em>"Come Come Yet Again Come"</em> - Devotional poetry and practice</li>
+                <li><em>"The Beloved"</em> - Heart-centered spiritual approach</li>
+                <li><em>"Love, Freedom, and Aloneness"</em> - Understanding love and celebration</li>
+            </ul>
+
+            <h4>Schedule & Investment:</h4>
+            <p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+            <p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+            <p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+            <p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+            <p><strong>Kirtan Evenings:</strong> First Friday 7:00-9:00 PM</p>
+            <p><strong>Investment:</strong> TBD</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Osho Neo Yoga Meditation Center</h3>
+                    <p>Where Classical Wisdom Meets Modern Transformation</p>
+                    <p>Farmingdale, NY 11735</p>
+                    <p>Nassau County, Long Island</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Professional Validation</h3>
+                    <p>NYC Department of Health</p>
+                    <p>Healthcare Professional Programs</p>
+                    <p>Evidence-Based Approaches</p>
+                    <p>Multi-Year Teaching Experience</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Traditional Foundation</h3>
+                    <p>8 Years Ananda Ashrama (3 Years Faculty)</p>
+                    <p>10 Months Korean Zen Monastery</p>
+                    <p>International Center Founding</p>
+                    <p>Cross-Cultural Retreat Coordination</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Seven Communities Served</h3>
+                    <p>Classical Yoga • Zen • Vipassana</p>
+                    <p>Professional Mindfulness • Self-Inquiry</p>
+                    <p>Stress Transformation • Bhakti & Celebration</p>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #555; padding-top: 2rem; margin-top: 2rem; text-align: center;">
+                <p>&copy; 2024 Osho Neo Yoga Meditation Center. Authentic integration, professional presentation, genuine transformation.</p>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #aaa;">Serving diverse meditation communities through time-tested wisdom and contemporary accessibility.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Page Navigation
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.page-section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Show selected section
+            const targetSection = document.getElementById(sectionId);
+            if (targetSection) {
+                targetSection.classList.add('active');
+            }
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+
+        // Modal Functions
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'block';
+                document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            }
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto'; // Restore scrolling
+            }
+        }
+
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            });
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                const modals = document.querySelectorAll('.modal');
+                modals.forEach(modal => {
+                    if (modal.style.display === 'block') {
+                        modal.style.display = 'none';
+                        document.body.style.overflow = 'auto';
+                    }
+                });
+            }
+        });
+
+        // Enhanced dropdown functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownItems = document.querySelectorAll('.nav-item');
+            
+            dropdownItems.forEach(item => {
+                const dropdown = item.querySelector('.dropdown');
+                if (dropdown) {
+                    let timeoutId;
+                    
+                    item.addEventListener('mouseenter', function() {
+                        clearTimeout(timeoutId);
+                        dropdown.style.opacity = '1';
+                        dropdown.style.visibility = 'visible';
+                        dropdown.style.transform = 'translateY(0)';
+                    });
+                    
+                    item.addEventListener('mouseleave', function() {
+                        timeoutId = setTimeout(() => {
+                            dropdown.style.opacity = '0';
+                            dropdown.style.visibility = 'hidden';
+                            dropdown.style.transform = 'translateY(-10px)';
+                        }, 150);
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationDelay = '0.1s';
+                    entry.target.style.animationFillMode = 'both';
+                    entry.target.style.animationDuration = '0.6s';
+                    entry.target.style.animationName = 'fadeInUp';
+                }
+            });
+        }, observerOptions);
+
+        // Add animation styles
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Observe elements for animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const animatedElements = document.querySelectorAll('.community-card, .credential-card');
+            animatedElements.forEach(el => observer.observe(el));
+        });
+
+        // Initialize all functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set initial page state
+            showSection('home');
+            
+            console.log('Osho Neo Yoga Meditation Center website loaded successfully');
+            console.log('Serving 7 meditation communities through authentic integration');
+        });
+    </script>
+</body>
+</html>
+                
+
+    <!-- Zen Integration Modal -->
+    <div id="zenModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('zenModal')">&times;</span>
+            <h2>Zen Enhancement Programs</h2>
+            <h3>Preparation for Effortless Zazen</h3>
+
+            <p><strong>Background:</strong> 10 months intensive training at Hwagesa Korean Zen Monastery including over 1,200 hours formal sitting meditation, traditional monastery discipline, and direct experience of Zen's "no-method" approach.</p>
+
+            <h4>Common Problems Zen Practitioners Face:</h4>
+            <ul>
+                <li><strong>Physical Restlessness:</strong> Body cannot settle into comfortable sitting position</li>
+                <li><strong>Mental Agitation:</strong> Mind races during sitting practice despite "just sitting" instruction</li>
+                <li><strong>Emotional Suppression:</strong> Unprocessed emotions arise and disturb zazen</li>
+                <li><strong>Effort vs. Effortlessness:</strong> Trying too hard to "not try" creates paradoxical tension</li>
+                <li><strong>Daily Life Integration:</strong> Cannot maintain awareness outside formal sitting periods</li>
+                <li><strong>Koan Confusion:</strong> Intellectual approach to koans rather than intuitive breakthrough</li>
+                <li><strong>Spiritual Bypassing:</strong> Using sitting to avoid rather than process psychological material</li>
+            </ul>
+
+            <h4>How Our Preparation Methods Solve These Challenges:</h4>
+            <ul>
+                <li><strong>Pre-Sitting Preparation:</strong> Movement and breathing techniques that prepare body and mind for stillness</li>
+                <li><strong>Restlessness Clearing:</strong> Cathartic methods that transform agitation into readiness for sitting</li>
+                <li><strong>Emotional Release:</strong> Safe processing of psychological material before zazen</li>
+                <li><strong>Physical Preparation:</strong> Movement that releases body tension for comfortable sitting</li>
+                <li><strong>Mental Clearing:</strong> Techniques that quiet mental chatter naturally</li>
+                <li><strong>Paradox Resolution:</strong> Understanding how preparation leads to true "no-method"</li>
+                <li><strong>Integration Support:</strong> Awareness practices for daily life</li>
+            </ul>
+
+            <h4>Programs Offered:</h4>
+            <ul>
+                <li><strong>Enhanced Zazen Training:</strong> Preparation techniques followed by traditional sitting</li>
+                <li><strong>Moving Preparation Workshop:</strong> Physical and emotional clearing before stillness</li>
+                <li><strong>Monastery Methods Adapted:</strong> Traditional discipline with contemporary preparation</li>
+                <li><strong>Work Practice Integration:</strong> Awareness in daily life supported by clearing</li>
+                <li><strong>Silent Sitting Intensives:</strong> Deep zazen practice with supportive preparation</li>
+                <li><strong>Koan Preparation Training:</strong> Active clearing that supports intuitive breakthrough</li>
+                <li><strong>Daily Life Zen Workshop:</strong> Integration of sitting practice with modern living</li>
+            </ul>
+
+            <h4>Recommended Reading:</h4>
+            <ul>
+                <li><em>"Zen Mind, Beginner's Mind"</em> - Suzuki Roshi</li>
+                <li><em>"The Three Pillars of Zen"</em> - Philip Kapleau</li>
+                <li><em>"Everyday Zen"</em> - Charlotte Joko Beck</li>
+                <li><em>"Neither This Nor That"</em> - Talks on Zen approach to meditation</li>
+                <li><em>"The Empty Boat"</em> - Zen stories and their meaning</li>
+                <li><em>"Zen: The Path of Paradox"</em> - Understanding Zen through paradox</li>
+            </ul>
+
+            <h4>Schedule & Investment:</h4>
+            <p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+            <p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+            <p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+            <p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+            <p><strong>Investment:</strong> TBD</p>
+        </div>
+    </div>
+
+    <!-- Vipassana Enhancement Modal -->
+    <div id="vipassanaModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('vipassanaModal')">&times;</span>
+            <h2>Vipassana Enhancement Programs</h2>
+            <h3>Clearing for Natural Witnessing</h3>
+
+            <p><strong>Approach:</strong> Traditional Vipassana witnessing awareness enhanced with preparatory techniques that clear emotional and energetic obstacles to natural mindfulness.</p>
+
+            <h4>Common Problems Vipassana Practitioners Face:</h4>
+            <ul>
+                <li><strong>Emotional Suppression:</strong> Unprocessed emotions block clear witnessing</li>
+                <li><strong>Effort in Watching:</strong> Witnessing becomes forced rather than natural</li>
+                <li><strong>Body Tension:</strong> Physical holding patterns interfere with somatic awareness</li>
+                <li><strong>Mental Commentary:</strong> Cannot observe without analyzing or judging</li>
+                <li><strong>Spiritual Bypassing:</strong> Using witnessing to avoid feeling difficult emotions</li>
+                <li><strong>Retreat Overwhelm:</strong> Intensive practice brings up unprocessed material</li>
+                <li><strong>Daily Life Integration:</strong> Cannot maintain mindfulness in busy modern life</li>
+            </ul>
+
+            <h4>How Our Preparation Methods Solve These Challenges:</h4>
+            <ul>
+                <li><strong>Emotional Clearing Preparation:</strong> Cathartic techniques that clear suppressed emotions blocking natural awareness</li>
+                <li><strong>Body Tension Release:</strong> Movement methods that release physical blocks to witnessing</li>
+                <li><strong>Enhanced Witnessing Training:</strong> Effortless awareness practices without mental strain</li>
+                <li><strong>Processing Support:</strong> Safe methods for handling difficult emotional material</li>
+                <li><strong>Preparation for Retreats:</strong> Clearing work that prevents retreat overwhelm</li>
+                <li><strong>Daily Life Integration:</strong> Continuous awareness supported by regular clearing</li>
+                <li><strong>Natural Mindfulness:</strong> Witnessing that includes rather than bypasses experience</li>
+            </ul>
+
+            <h4>Programs Offered:</h4>
+            <ul>
+<li><strong>Enhanced Vipassana Training:</strong> Traditional witnessing with clearing preparation</li>
+                <li><strong>Emotional Liberation Intensive:</strong> Clear obstacles to natural mindfulness</li>
+                <li><strong>Body Awareness Integration:</strong> Somatic clearing for enhanced witnessing</li>
+                <li><strong>Daily Mindfulness Support:</strong> Continuous awareness with clearing techniques</li>
+                <li><strong>Retreat Preparation Workshops:</strong> Preparation for intensive silent retreats</li>
+            </ul>
+
+            <h4>Recommended Reading:</h4>
+            <ul>
+                <li><em>"Mindfulness in Plain English"</em> - Bhante Henepola Gunaratana</li>
+                <li><em>"When Things Fall Apart"</em> - Pema Chödrön</li>
+                <li><em>"The Heart of Buddhist Meditation"</em> - Nyanaponika Thera</li>
+                <li><em>"The Art of Living"</em> - Vipassana meditation approach</li>
+                <li><em>"Meditation: The Art of Ecstasy"</em> - Understanding meditation through witnessing</li>
+                <li><em>"The Path of Meditation"</em> - Witnessing and awareness practices</li>
+            </ul>
+
+            <h4>Schedule & Investment:</h4>
+            <p><strong>Weekly Classes:</strong> Tuesday OR Thursday 7:00-8:30 PM (alternating weekly)</p>
+            <p><strong>Weekly Intensives:</strong> Third Saturday 11:00 AM-2:00 PM</p>
+            <p><strong>Monthly Intensives:</strong> First Saturday 11:00 AM-5:00 PM (optional Jones Beach visit in summer)</p>
+            <p><strong>Online Sessions:</strong> Second & Fourth Sunday 11:00 AM-2:00 PM via Zoom</p>
+            <p><strong>Investment:</strong> TBD</p>
+        </div>
+    </div>
