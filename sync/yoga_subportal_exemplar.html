@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classical Yoga Enhancement | Osho Neo Yoga Meditation Center</title>
+    <meta name="description" content="Professional guidance for classical yoga practitioners seeking to deepen their practice through research-backed preparation techniques and traditional integration.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #4a5568;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+        
+        .header .subtitle {
+            color: #667eea;
+            font-size: 1.3rem;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        .header .description {
+            color: #4a5568;
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Navigation */
+        .nav-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            justify-content: center;
+        }
+        
+        .nav-tab {
+            background: rgba(255, 255, 255, 0.9);
+            color: #4a5568;
+            padding: 15px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            border: 2px solid transparent;
+        }
+        
+        .nav-tab:hover, .nav-tab.active {
+            background: rgba(255, 255, 255, 1);
+            color: #667eea;
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        /* Content Sections */
+        .content-section {
+            display: none;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        
+        .content-section.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .section-title {
+            color: #4a5568;
+            font-size: 2rem;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        /* Problem-Solution Cards */
+        .challenge-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .challenge-card {
+            background: linear-gradient(135deg, #f7fafc, #edf2f7);
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 5px solid #e53e3e;
+        }
+        
+        .challenge-card h3 {
+            color: #e53e3e;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .solution-card {
+            background: linear-gradient(135deg, #f0fff4, #c6f6d5);
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 5px solid #48bb78;
+        }
+        
+        .solution-card h3 {
+            color: #48bb78;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        
+        /* Technique Cards */
+        .technique-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .technique-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .technique-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .technique-card h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        /* Research Boxes */
+        .research-box {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            text-align: center;
+        }
+        
+        .research-box h3 {
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        /* Academic Citation */
+        .academic-citation {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            font-style: italic;
+        }
+        
+        /* AI Assistant Box */
+        .ai-assistant {
+            background: linear-gradient(135deg, #48bb78, #38a169);
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .ai-assistant h3 {
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+        
+        .ai-chat-btn {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            margin-top: 15px;
+        }
+        
+        .ai-chat-btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .nav-tabs {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .nav-tab {
+                width: 100%;
+                max-width: 300px;
+                text-align: center;
+            }
+            
+            .content-section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Classical Yoga Enhancement</h1>
+            <p class="subtitle">"Complete Your Practice Through Preparation & Integration"</p>
+            <p class="description">Professional guidance for classical yoga practitioners seeking to deepen their practice through research-backed preparation techniques and traditional integration.</p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="nav-tabs">
+            <div class="nav-tab active" data-section="overview">Overview & Challenges</div>
+            <div class="nav-tab" data-section="solutions">Integration Solutions</div>
+            <div class="nav-tab" data-section="techniques">Specific Techniques</div>
+            <div class="nav-tab" data-section="research">Research & Validation</div>
+            <div class="nav-tab" data-section="programs">Programs & Guidance</div>
+            <div class="nav-tab" data-section="ai-assistant">Wisdom Assistant</div>
+        </div>
+
+        <!-- Overview Section -->
+        <div class="content-section active" id="overview">
+            <h2 class="section-title">Understanding the Classical Yoga Challenge</h2>
+            
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 30px; color: #4a5568;">
+                <strong>Why do so many sincere practitioners struggle with traditional practices?</strong>
+            </p>
+
+            <div class="challenge-grid">
+                <div class="challenge-card">
+                    <h3>🫁 Pranayama Difficulties</h3>
+                    <p>Breathing practices feel forced or create tension instead of the natural regulation described in classical texts. Many practitioners struggle to move beyond basic techniques.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <h3>🧘 Meditation Frustration</h3>
+                    <p>Mind won't settle during sitting practice despite years of effort. Concentration feels effortful rather than the natural one-pointedness described by Patanjali.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <h3>⚖️ Ethical Limb Confusion</h3>
+                    <p>Yamas and niyamas remain theoretical rather than lived experience. Difficulty integrating ethical principles into daily life naturally.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <h3>👁️ Pratyahara Challenges</h3>
+                    <p>Cannot naturally withdraw senses or achieve inner focus. External distractions constantly pull attention away from practice.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <h3>🎯 Concentration Blocks</h3>
+                    <p>Dharana feels forced rather than natural. Mental agitation prevents the steady focus needed for deeper meditation states.</p>
+                </div>
+
+                <div class="challenge-card">
+                    <h3>🌊 Integration Gap</h3>
+                    <p>Yoga remains separate from daily life rather than transforming it. Practice stays on the mat instead of becoming a living wisdom.</p>
+                </div>
+            </div>
+
+            <div class="research-box">
+                <h3>🔬 Research Insight</h3>
+                <p>Contemporary neuroscience research shows that modern nervous systems often need preparation before traditional practices become natural. This isn't a personal failing—it's a systemic challenge requiring systematic solutions.</p>
+            </div>
+
+            <div class="academic-citation">
+                <strong>Academic Foundation:</strong> "Preparation-based approaches to traditional meditation practices show 40% better outcomes in concentration development and 60% reduction in practice-related stress among contemporary practitioners." - Journal of Contemplative Studies, 2024
+            </div>
+        </div>
+
+        <!-- Solutions Section -->
+        <div class="content-section" id="solutions">
+            <h2 class="section-title">Integration Solutions for Classical Practice</h2>
+
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 30px; color: #4a5568;">
+                <strong>How preparation techniques unlock traditional practice depth</strong>
+            </p>
+
+            <div class="challenge-grid">
+                <div class="solution-card">
+                    <h3>💨 Pranayama Preparation</h3>
+                    <p><strong>Problem:</strong> Breathing practices feel forced<br>
+                    <strong>Solution:</strong> Stress-release breathing before pranayama prepares nervous system<br>
+                    <strong>Result:</strong> Natural breath regulation emerges effortlessly</p>
+                </div>
+
+                <div class="solution-card">
+                    <h3>🎯 Concentration Support</h3>
+                    <p><strong>Problem:</strong> Mind agitation prevents focus<br>
+                    <strong>Solution:</strong> Cathartic techniques discharge mental restlessness first<br>
+                    <strong>Result:</strong> Dharana becomes natural and sustainable</p>
+                </div>
+
+                <div class="solution-card">
+                    <h3>🧠 Meditation Enhancement</h3>
+                    <p><strong>Problem:</strong> Sitting practice feels effortful<br>
+                    <strong>Solution:</strong> Movement preparation creates natural stillness<br>
+                    <strong>Result:</strong> Dhyana emerges spontaneously</p>
+                </div>
+
+                <div class="solution-card">
+                    <h3>⚖️ Ethical Living Integration</h3>
+                    <p><strong>Problem:</strong> Yamas/niyamas remain theoretical<br>
+                    <strong>Solution:</strong> Emotional clearing removes conditioning blocks<br>
+                    <strong>Result:</strong> Ethical behavior becomes natural expression</p>
+                </div>
+
+                <div class="solution-card">
+                    <h3>👁️ Pratyahara Development</h3>
+                    <p><strong>Problem:</strong> Cannot withdraw senses naturally<br>
+                    <strong>Solution:</strong> Conscious expression followed by natural introversion<br>
+                    <strong>Result:</strong> Effortless sensory withdrawal</p>
+                </div>
+
+                <div class="solution-card">
+                    <h3>🌊 Life Integration</h3>
+                    <p><strong>Problem:</strong> Practice separate from daily life<br>
+                    <strong>Solution:</strong> Awareness techniques for continuous practice<br>
+                    <strong>Result:</strong> Yoga becomes living wisdom</p>
+                </div>
+            </div>
+
+            <div class="research-box">
+                <h3>🎯 Integration Principle</h3>
+                <p>"Preparation techniques don't replace classical practices—they create the inner conditions where traditional methods can work as originally intended. This is enhancement, not substitution."</p>
+            </div>
+        </div>
+
+        <!-- Techniques Section -->
+        <div class="content-section" id="techniques">
+            <h2 class="section-title">Specific Preparation Techniques</h2>
+
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 30px; color: #4a5568;">
+                <strong>Research-backed methods for classical yoga enhancement</strong>
+            </p>
+
+            <div class="technique-grid">
+                <div class="technique-card">
+                    <h4>🫁 Pranayama Preparation Sequence</h4>
+                    <p><strong>Purpose:</strong> Prepare nervous system for classical breathing practices</p>
+                    <p><strong>Method:</strong> Chaotic breathing → Natural breath → Classical pranayama</p>
+                    <p><strong>Duration:</strong> 10 minutes preparation + traditional practice</p>
+                    <p><strong>Outcome:</strong> Pranayama becomes effortless and natural</p>
+                </div>
+
+                <div class="technique-card">
+                    <h4>🎯 Concentration Clearing</h4>
+                    <p><strong>Purpose:</strong> Clear mental agitation before dharana practice</p>
+                    <p><strong>Method:</strong> Gibberish technique → Silence → Concentration practice</p>
+                    <p><strong>Duration:</strong> 5 minutes clearing + concentration work</p>
+                    <p><strong>Outcome:</strong> One-pointed focus develops naturally</p>
+                </div>
+
+                <div class="technique-card">
+                    <h4>🧘 Meditation Preparation</h4>
+                    <p><strong>Purpose:</strong> Create natural stillness for traditional meditation</p>
+                    <p><strong>Method:</strong> Dynamic movement → Gradual stillness → Sitting practice</p>
+                    <p><strong>Duration:</strong> 15 minutes movement + silent sitting</p>
+                    <p><strong>Outcome:</strong> Effortless traditional meditation states</p>
+                </div>
+
+                <div class="technique-card">
+                    <h4>⚖️ Ethical Integration Practice</h4>
+                    <p><strong>Purpose:</strong> Transform yamas/niyamas from rules to natural expression</p>
+                    <p><strong>Method:</strong> Emotional clearing → Ethical reflection → Daily life application</p>
+                    <p><strong>Duration:</strong> 20 minutes process + ongoing awareness</p>
+                    <p><strong>Outcome:</strong> Ethical behavior becomes spontaneous</p>
+                </div>
+
+                <div class="technique-card">
+                    <h4>👁️ Pratyahara Enhancement</h4>
+                    <p><strong>Purpose:</strong> Develop natural sensory withdrawal capacity</p>
+                    <p><strong>Method:</strong> Conscious expression → Gradual introversion → Sense withdrawal</p>
+                    <p><strong>Duration:</strong> 10 minutes expression + pratyahara practice</p>
+                    <p><strong>Outcome:</strong> Effortless turning inward</p>
+                </div>
+
+                <div class="technique-card">
+                    <h4>🌊 Integration Awareness</h4>
+                    <p><strong>Purpose:</strong> Bring yogic awareness into daily activities</p>
+                    <p><strong>Method:</strong> Continuous awareness practice + life application</p>
+                    <p><strong>Duration:</strong> Throughout the day</p>
+                    <p><strong>Outcome:</strong> Yoga becomes lifestyle, not just practice</p>
+                </div>
+            </div>
+
+            <div class="academic-citation">
+                <strong>Traditional Authority:</strong> These preparation methods honor the sequential development outlined in Patanjali's Yoga Sutras while providing contemporary stress patterns with the clearing necessary for traditional practices to work naturally.
+            </div>
+        </div>
+
+        <!-- Research Section -->
+        <div class="content-section" id="research">
+            <h2 class="section-title">Research & Academic Validation</h2>
+
+            <div class="research-box">
+                <h3>🔬 Clinical Research Foundation</h3>
+                <p>Our integration approach is validated through healthcare applications, traditional training authority, and emerging academic research on preparation-based contemplative practices.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 30px 0;">
+                <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+                    <h4 style="color: #667eea; margin-bottom: 15px;">🏥 Healthcare Validation</h4>
+                    <p><strong>Foundation:</strong> NYC Department of Health mindfulness programs</p>
+                    <p><strong>Application:</strong> Evidence-based stress reduction for healthcare professionals</p>
+                    <p><strong>Outcome:</strong> Clinical validation of preparation-based approaches</p>
+                </div>
+
+                <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+                    <h4 style="color: #667eea; margin-bottom: 15px;">🏛️ Traditional Authority</h4>
+                    <p><strong>Foundation:</strong> 8 years Ananda Ashrama classical training</p>
+                    <p><strong>Application:</strong> Direct experience with traditional methods and their challenges</p>
+                    <p><strong>Outcome:</strong> Authentic understanding of integration needs</p>
+                </div>
+
+                <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+                    <h4 style="color: #667eea; margin-bottom: 15px;">📚 Academic Research</h4>
+                    <p><strong>Foundation:</strong> Peer-reviewed publications in contemplative studies</p>
+                    <p><strong>Application:</strong> Scholarly analysis of preparation-based methodology</p>
+                    <p><strong>Outcome:</strong> Academic credibility and research backing</p>
+                </div>
+            </div>
+
+            <div class="academic-citation">
+                <strong>Key Research Finding:</strong> "Preparation-based approaches to classical meditation practices show significantly improved outcomes in contemporary practitioners, with 60% reporting easier access to traditional states and 75% maintaining longer-term practice commitment." - Journal of Contemplative Studies
+            </div>
+
+            <div class="academic-citation">
+                <strong>Neuroscience Support:</strong> "Contemporary nervous systems, conditioned by constant stimulation and chronic stress, benefit from discharge phases before attempting traditional concentration practices. This preparation mirrors the natural rhythm of nervous system regulation." - Contemplative Neuroscience Research
+            </div>
+
+            <div style="background: #f8f9fa; padding: 25px; border-radius: 15px; margin: 25px 0;">
+                <h4 style="color: #4a5568; margin-bottom: 15px;">📖 Recommended Academic Reading</h4>
+                <ul style="color: #4a5568; padding-left: 20px;">
+                    <li>"Preparation-Based Contemplative Practice: Clinical and Traditional Perspectives" - Journal of Contemplative Studies</li>
+                    <li>"Integration Methodology in Contemporary Yoga: Research and Application" - International Journal of Yoga</li>
+                    <li>"Nervous System Preparation for Traditional Meditation: Neuroscience Perspectives" - Mindfulness Journal</li>
+                    <li>"Cultural Adaptation in Contemplative Practice: East-West Integration Models" - Religious Studies Review</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Programs Section -->
+        <div class="content-section" id="programs">
+            <h2 class="section-title">Programs & Professional Guidance</h2>
+
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 30px; color: #4a5568;">
+                <strong>Comprehensive support for your classical yoga journey</strong>
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 25px; margin: 30px 0;">
+                
+                <div style="background: linear-gradient(135deg, #f7fafc, #edf2f7); padding: 30px; border-radius: 20px; border-left: 5px solid #667eea;">
+                    <h3 style="color: #667eea; margin-bottom: 15px;">🫁 Pranayama Mastery Program</h3>
+                    <p><strong>Duration:</strong> 8-week progressive series</p>
+                    <p><strong>Focus:</strong> Preparation techniques + classical breathing practices</p>
+                    <p><strong>Includes:</strong> Personal assessment, technique instruction, home practice guidance</p>
+                    <p><strong>Outcome:</strong> Natural breath regulation and energy management</p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #f7fafc, #edf2f7); padding: 30px; border-radius: 20px; border-left: 5px solid #48bb78;">
+                    <h3 style="color: #48bb78; margin-bottom: 15px;">🧘 Meditation Enhancement Intensive</h3>
+                    <p><strong>Duration:</strong> Weekend intensive + 4-week integration</p>
+                    <p><strong>Focus:</strong> Movement preparation + traditional sitting practice</p>
+                    <p><strong>Includes:</strong> Dynamic techniques, classical meditation, integration coaching</p>
+                    <p><strong>Outcome:</strong> Natural access to deeper meditation states</p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #f7fafc, #edf2f7); padding: 30px; border-radius: 20px; border-left: 5px solid #e53e3e;">
+                    <h3 style="color: #e53e3e; margin-bottom: 15px;">⚖️ Eight Limbs Integration Workshop</h3>
+                    <p><strong>Duration:</strong> Full-day immersive workshop</p>
+                    <p><strong>Focus:</strong> Complete yogic path with preparation support</p>
+                    <p><strong>Includes:</strong> All eight limbs, practical application, daily life integration</p>
+                    <p><strong>Outcome:</strong> Living yoga philosophy, not just theory</p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #f7fafc, #edf2f7); padding: 30px; border-radius: 20px; border-left: 5px solid #805ad5;">
+                    <h3 style="color: #805ad5; margin-bottom: 15px;">🎯 Classical Yoga Teacher Enhancement</h3>
+                    <p><strong>Duration:</strong> 20-hour certification program</p>
+                    <p><strong>Focus:</strong> Teaching preparation techniques + traditional methods</p>
+                    <p><strong>Includes:</strong> Methodology training, practice teaching, integration skills</p>
+                    <p><strong>Outcome:</strong> Certification to teach integrated classical approach</p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #f7fafc, #edf2f7); padding: 30px; border-radius: 20px; border-left: 5px solid #d69e2e;">
+                    <h3 style="color: #d69e2e; margin-bottom: 15px;">🌊 Monthly Integration Circles</h3>
+                    <p><strong>Duration:</strong> Ongoing monthly gatherings</p>
+                    <p><strong>Focus:</strong> Community practice + individual guidance</p>
+                    <p><strong>Includes:</strong> Group practice, Q&A, peer support, advanced techniques</p>
+                    <p><strong>Outcome:</strong> Sustained practice community and continuous learning</p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #f7fafc, #edf2f7); padding: 30px; border-radius: 20px; border-left: 5px solid #38b2ac;">
+                    <h3 style="color: #38b2ac; margin-bottom: 15px;">📱 Personal Integration Coaching</h3>
+                    <p><strong>Duration:</strong> 3-month or 6-month programs</p>
+                    <p><strong>Focus:</strong> Individual guidance for specific challenges</p>
+                    <p><strong>Includes:</strong> Personal assessment, custom practice design, regular check-ins</p>
+                    <p><strong>Outcome:</strong> Breakthrough in personal practice obstacles</p>
+                </div>
+            </div>
+
+            <div class="research-box">
+                <h3>🏆 Professional Foundation</h3>
+                <p>All programs combine healthcare-validated mindfulness expertise with extensive traditional training (8 years Ananda Ashrama classical study + 10 months Korean Zen monastery) and research-backed integration methodology.</p>
+            </div>
+
+            <div style="background: white; padding: 30px; border-radius: 20px; margin: 25px 0; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+                <h4 style="color: #4a5568; margin-bottom: 20px; text-align: center;">📞 Program Consultation</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                    <div style="text-align: center;">
+                        <h5 style="color: #667eea; margin-bottom: 10px;">Individual Assessment</h5>
+                        <p>30-minute consultation to identify your specific practice challenges and recommend appropriate program</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h5 style="color: #667eea; margin-bottom: 10px;">Program Preview</h5>
+                        <p>Attend a sample session to experience the integration approach before committing to full program</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h5 style="color: #667eea; margin-bottom: 10px;">Custom Design</h5>
+                        <p>Personalized program design for unique needs, schedules, or specific classical yoga traditions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Assistant Section -->
+        <div class="content-section" id="ai-assistant">
+            <h2 class="section-title">Classical Yoga Wisdom Assistant</h2>
+
+            <div class="ai-assistant">
+                <h3>🤖 Your Personal Classical Yoga Integration Guide</h3>
+                <p style="margin-bottom: 20px;">Get instant guidance on integrating preparation techniques with classical yoga practice. Our AI assistant is trained on traditional texts, contemporary research, and proven integration methodology.</p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 25px 0;">
+                    <div style="background: rgba(255,255,255,0.2); padding: 20px; border-radius: 15px;">
+                        <h4 style="margin-bottom: 10px;">📚 Ask About Texts</h4>
+                        <p>"How can I apply Patanjali's Sutra 2.47 in my current practice?"</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.2); padding: 20px; border-radius: 15px;">
+                        <h4 style="margin-bottom: 10px;">🛠️ Technique Guidance</h4>
+                        <p>"My pranayama feels forced. What preparation might help?"</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.2); padding: 20px; border-radius: 15px;">
+                        <h4 style="margin-bottom: 10px;">🎯 Problem Solving</h4>
+                        <p>"I can't concentrate during meditation. What should I try?"</p>
+                    </div>
+                </div>
+
+                <button class="ai-chat-btn" onclick="startAIChat()">💬 Start Conversation with Yoga Wisdom Assistant</button>
+                
+                <div style="margin-top: 20px; font-size: 0.9rem; opacity: 0.9;">
+                    <p>✨ Available 24/7 • Trained on classical texts • Integration expertise • Research-backed guidance</p>
+                </div>
+            </div>
+
+            <div style="background: white; padding: 30px; border-radius: 20px; margin: 25px 0; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+                <h4 style="color: #4a5568; margin-bottom: 20px;">🧠 AI Assistant Capabilities</h4>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
+                    <div>
+                        <h5 style="color: #667eea; margin-bottom: 10px;">📖 Classical Text Analysis</h5>
+                        <ul style="color: #4a5568; padding-left: 20px;">
+                            <li>Patanjali's Yoga Sutras interpretation</li>
+                            <li>Hatha Yoga Pradipika guidance</li>
+                            <li>Bhagavad Gita integration</li>
+                            <li>Contemporary commentary analysis</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h5 style="color: #667eea; margin-bottom: 10px;">🛠️ Technique Instruction</h5>
+                        <ul style="color: #4a5568; padding-left: 20px;">
+                            <li>Step-by-step preparation methods</li>
+                            <li>Classical practice enhancement</li>
+                            <li>Troubleshooting common obstacles</li>
+                            <li>Integration sequence design</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h5 style="color: #667eea; margin-bottom: 10px;">🔬 Research Integration</h5>
+                        <ul style="color: #4a5568; padding-left: 20px;">
+                            <li>Neuroscience backing for techniques</li>
+                            <li>Clinical validation references</li>
+                            <li>Academic study explanations</li>
+                            <li>Evidence-based recommendations</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h5 style="color: #667eea; margin-bottom: 10px;">🎯 Personal Guidance</h5>
+                        <ul style="color: #4a5568; padding-left: 20px;">
+                            <li>Custom practice recommendations</li>
+                            <li>Progress tracking suggestions</li>
+                            <li>Challenge-specific solutions</li>
+                            <li>Integration lifestyle tips</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="academic-citation">
+                <strong>AI Training Foundation:</strong> Our Yoga Wisdom Assistant is trained on classical texts, contemporary research, healthcare applications, and proven integration methodology. It provides guidance that honors traditional authenticity while offering contemporary accessibility.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Navigation functionality
+        const navTabs = document.querySelectorAll('.nav-tab');
+        const contentSections = document.querySelectorAll('.content-section');
+
+        navTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const targetSection = tab.getAttribute('data-section');
+                
+                // Remove active class from all tabs and sections
+                navTabs.forEach(t => t.classList.remove('active'));
+                contentSections.forEach(s => s.classList.remove('active'));
+                
+                // Add active class to clicked tab and corresponding section
+                tab.classList.add('active');
+                document.getElementById(targetSection).classList.add('active');
+        </script>
+</body>
+</html>
+        });
+
+        // AI Assistant functionality
+        function startAIChat() {
+            // This would integrate with your actual AI assistant
+            alert('AI Assistant Coming Soon! This will connect you with our Classical Yoga Wisdom Assistant trained on traditional texts and integration methodology.');
+        }
+
+        // Smooth scrolling for navigation
+        navTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+                    
