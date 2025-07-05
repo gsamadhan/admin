@@ -43,14 +43,14 @@ https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/osho_rebuttal_pe
 https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/osho_rebuttal_project_overview.md
 
 Earlier Thread  of Rebuttal  Project docs:
-https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/osho_rebuttal_strategy.md
-https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/actionable_strategies.md
-https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/copyright_spiritual_freedom.md
-https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/detailed_implementation_guide.md
-https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/historical_testimonies.md
-https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/media_representation_analysis.md
-https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/OshoInstitutionalAnalysis_2.md
-https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/osho_racism_analysis.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/earlierthread/osho_rebuttal_strategy.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/earlierthread/actionable_strategies.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/earlierthread/copyright_spiritual_freedom.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/earlierthread/detailed_implementation_guide.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/earlierthread/historical_testimonies.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/earlierthread/media_representation_analysis.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/earlierthread/OshoInstitutionalAnalysis_2.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/earlierthread/osho_racism_analysis.md
 
 
 Sync of all three Projects
