@@ -53,6 +53,16 @@ https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/OshoInstitutiona
 https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/osho_racism_analysis.md
 
 
+Sync of all three Projects
+Strategy Docs
+https://raw.githubusercontent.com/gsamadhan/admin/main/sync/Strategic_Academic_Transformation_Framework.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/sync/final_strategic_framework_transfer.md
+
+
+Sites
+https://raw.githubusercontent.com/gsamadhan/admin/main/sync/yoga_subportal_exemplar.html
+
+
 
 
 
