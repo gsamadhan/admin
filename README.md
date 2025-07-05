@@ -16,9 +16,9 @@ https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/updated_strategic
 https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/website_enhancements_documentation.md
 
 Thread 2 of Neo Yoga Project docs:
-https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/update_conversation_handoff_brief.txt
-https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/updated_strategic_document_overview.txt
-https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/updated_modals_for_complete_website_strategy_guide.txt
+https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/thread1/update_conversation_handoff_brief.txt
+https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/thread1/updated_strategic_document_overview.txt
+https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/thread1/updated_modals_for_complete_website_strategy_guide.txt
  
 Latest Site Docs of Neo Yoga Project:
 https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/index.html
