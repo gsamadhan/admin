@@ -21,8 +21,7 @@ https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/thread1/updated_s
 https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/thread1/updated_modals_for_complete_website_strategy_guide.txt
  
 Latest Site Docs of Neo Yoga Project:
-https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/index.html
-
+https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/neoyoga_enhanced_site.html
 
 Blog Project folder:
 Blog Project Strategy Docs:
