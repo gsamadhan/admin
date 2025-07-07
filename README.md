@@ -54,7 +54,8 @@ https://raw.githubusercontent.com/gsamadhan/admin/main/rebuttal/earlierthread/os
 
 
 Sync of all three Projects
-Strategy Docs
+Strategy Docs - Use this first one ignore other 2
+https://raw.githubusercontent.com/gsamadhan/admin/main/sync/complete_sync_strategy_unified.md
 https://raw.githubusercontent.com/gsamadhan/admin/main/sync/Strategic_Academic_Transformation_Framework.md
 https://raw.githubusercontent.com/gsamadhan/admin/main/sync/final_strategic_framework_transfer.md
 
