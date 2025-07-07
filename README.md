@@ -25,6 +25,7 @@ https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/neoyoga_enhanced_
 
 Blog Project folder:
 Blog Project Strategy Docs:
+https://raw.githubusercontent.com/gsamadhan/admin/main/blog/blog_transformation_strategy.md
 https://raw.githubusercontent.com/gsamadhan/admin/main/blog/project_handoff_guide.md
 https://raw.githubusercontent.com/gsamadhan/admin/main/blog/project_handoff_guide_ver2.md
 Blog Project Site docs:-
