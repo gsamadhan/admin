@@ -46,9 +46,9 @@ MAIN DOMAIN: oshoneoyoga.com
 | **Stress Transform** | 20-30% | Active Meditation | Active Meditation Coach |
 
 ### **Content Distribution Architecture:**
-- **80% Universal Appeal:** No Osho reference, practical benefits focus
-- **15% Progressive Disclosure:** "Contemporary innovations" attribution  
-- **5% Deep Dive:** Direct Osho attribution with academic context
+- **70% Universal Appeal:** No Osho reference, practical benefits focus
+- **20% Progressive Disclosure:** "Contemporary innovations" attribution  
+- **10% Deep Dive:** Direct Osho attribution with academic context
 
 ### **Academic Shield Articles (Ready for Deployment):**
 1. **"Evidence-Based Integration of Contemplative Practices in Healthcare"**
