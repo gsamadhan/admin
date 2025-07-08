@@ -3,6 +3,12 @@
 Current File
 https://raw.githubusercontent.com/gsamadhan/admin/main//README.md
 
+Import these as needed
+https://raw.githubusercontent.com/gsamadhan/admin/main/sync/final_strategic_framework_transfer.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/sync/complete_sync_strategy_unified.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/sync/yoga_subportal_exemplar.html
+
+
 
 Neoyoga Project folder:
 <!--https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/[FILENAME] -->
