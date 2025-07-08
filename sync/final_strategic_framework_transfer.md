@@ -55,7 +55,7 @@
 **Shield Level:** "Trojan Horse" content architecture
 
 ### **Platform 3: Rebuttal Site (Academic Authority)**
-**URL:** [Academic domain]
+**URL:** research.oshoneoyoga.com
 **Positioning:** Scholarly research platform
 **Osho Reference:** Academic analysis and research-based treatment
 **Shield Level:** University-level academic credibility
