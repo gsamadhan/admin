@@ -23,13 +23,13 @@ https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/thread1/updated_m
 Latest Site Docs of Neo Yoga Project:
 https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/index.html
 
-Blog Project folder:
+Archive  Project folder:
 Blog Project Strategy Docs:
-https://raw.githubusercontent.com/gsamadhan/admin/main/blog/blog_transformation_strategy.md
-https://raw.githubusercontent.com/gsamadhan/admin/main/blog/project_handoff_guide.md
-https://raw.githubusercontent.com/gsamadhan/admin/main/blog/project_handoff_guide_ver2.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/archive/blog_transformation_strategy.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/archive/project_handoff_guide.md
+https://raw.githubusercontent.com/gsamadhan/admin/main/archive/project_handoff_guide_ver2.md
 Blog Project Site docs:-
-https://raw.githubusercontent.com/gsamadhan/admin/main/blog/osho_teachings_website.html
+https://raw.githubusercontent.com/gsamadhan/admin/main/archive/osho_teachings_website.html
 
 
 Rebuttal project folder: 
