@@ -4,9 +4,15 @@ Current File
 https://raw.githubusercontent.com/gsamadhan/admin/main//README.md
 
 Import these as needed
+https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/conversation_handoff_brief.md
+](https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/complete_website_strategy_guide.md
+)https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/updated_strategic_document_overview.md
+
+
 https://raw.githubusercontent.com/gsamadhan/admin/main/sync/final_strategic_framework_transfer.md
 https://raw.githubusercontent.com/gsamadhan/admin/main/sync/complete_sync_strategy_unified.md
 https://raw.githubusercontent.com/gsamadhan/admin/main/sync/yoga_subportal_exemplar.html
+https://raw.githubusercontent.com/gsamadhan/admin/main/neoyoga/updated_strategic_document_overview.md
 
 
 
